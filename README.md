@@ -6,3 +6,7 @@ The driver allows to change data read or written from/to external devices.
 The driver allows to intercept network trafic, collect it in the user mode, change it and reinject in the network.
 
 You can use the driver for educational purposses. The commercial usage or code/binary distribution is not allowed.
+
+Slava Imameev
+Sydney
+September 2015

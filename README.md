@@ -9,6 +9,8 @@ The driver can protect itself and selected user mode processes even from users w
 You can use the driver for educational purposses. The commercial usage or code/binary distribution is not allowed.  
 The driver was developed in 2009-2011 and tested up to Mac OS X Mavericks.
 
+You can contact the author via his blog http://modpager.blogspot.com.au  or  facebook https://www.facebook.com/profile.php?id=100010119092130  
+
 Slava Imameev  
 Sydney  
 September 2015  

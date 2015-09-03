@@ -1,0 +1,1054 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F90DCEDB1B97F4E800540DFF /* AppleUSBEHCIDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCDFB1B97F4E700540DFF /* AppleUSBEHCIDldHook.cpp */; };
+		F90DCEDC1B97F4E800540DFF /* AppleUSBEHCIDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCDFC1B97F4E700540DFF /* AppleUSBEHCIDldHook.h */; };
+		F90DCEDD1B97F4E800540DFF /* AppleUSBOHCIDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCDFD1B97F4E700540DFF /* AppleUSBOHCIDldHook.cpp */; };
+		F90DCEDE1B97F4E800540DFF /* AppleUSBOHCIDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCDFE1B97F4E700540DFF /* AppleUSBOHCIDldHook.h */; };
+		F90DCEDF1B97F4E800540DFF /* DeviceLockIOKitDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCDFF1B97F4E700540DFF /* DeviceLockIOKitDriver.cpp */; };
+		F90DCEE01B97F4E800540DFF /* DeviceLockIOKitDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE001B97F4E700540DFF /* DeviceLockIOKitDriver.h */; };
+		F90DCEE11B97F4E800540DFF /* DeviceLockIPCDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE011B97F4E700540DFF /* DeviceLockIPCDriver.cpp */; };
+		F90DCEE21B97F4E800540DFF /* DeviceLockIPCDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE021B97F4E700540DFF /* DeviceLockIPCDriver.h */; };
+		F90DCEE31B97F4E800540DFF /* distorm.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE061B97F4E700540DFF /* distorm.h */; };
+		F90DCEE41B97F4E800540DFF /* mnemonics.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE071B97F4E700540DFF /* mnemonics.h */; };
+		F90DCEE51B97F4E800540DFF /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE091B97F4E700540DFF /* config.h */; };
+		F90DCEE61B97F4E800540DFF /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE0A1B97F4E700540DFF /* decoder.c */; };
+		F90DCEE71B97F4E800540DFF /* decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE0B1B97F4E700540DFF /* decoder.h */; };
+		F90DCEE81B97F4E800540DFF /* distorm.c in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE0C1B97F4E700540DFF /* distorm.c */; };
+		F90DCEE91B97F4E800540DFF /* instructions.c in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE0D1B97F4E700540DFF /* instructions.c */; };
+		F90DCEEA1B97F4E800540DFF /* instructions.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE0E1B97F4E700540DFF /* instructions.h */; };
+		F90DCEEB1B97F4E800540DFF /* insts.c in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE0F1B97F4E700540DFF /* insts.c */; };
+		F90DCEEC1B97F4E800540DFF /* insts.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE101B97F4E700540DFF /* insts.h */; };
+		F90DCEED1B97F4E800540DFF /* mnemonics.c in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE111B97F4E700540DFF /* mnemonics.c */; };
+		F90DCEEE1B97F4E800540DFF /* operands.c in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE121B97F4E700540DFF /* operands.c */; };
+		F90DCEEF1B97F4E800540DFF /* operands.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE131B97F4E700540DFF /* operands.h */; };
+		F90DCEF01B97F4E800540DFF /* prefix.c in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE141B97F4E700540DFF /* prefix.c */; };
+		F90DCEF11B97F4E800540DFF /* prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE151B97F4E700540DFF /* prefix.h */; };
+		F90DCEF21B97F4E800540DFF /* textdefs.c in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE161B97F4E700540DFF /* textdefs.c */; };
+		F90DCEF31B97F4E800540DFF /* textdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE171B97F4E700540DFF /* textdefs.h */; };
+		F90DCEF41B97F4E800540DFF /* wstring.c in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE181B97F4E700540DFF /* wstring.c */; };
+		F90DCEF51B97F4E800540DFF /* wstring.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE191B97F4E700540DFF /* wstring.h */; };
+		F90DCEF61B97F4E800540DFF /* x86defs.c in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE1A1B97F4E700540DFF /* x86defs.c */; };
+		F90DCEF71B97F4E800540DFF /* x86defs.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE1B1B97F4E700540DFF /* x86defs.h */; };
+		F90DCEF81B97F4E800540DFF /* DldAclObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE1C1B97F4E700540DFF /* DldAclObject.h */; };
+		F90DCEF91B97F4E800540DFF /* DldAclWithProcsObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE1D1B97F4E700540DFF /* DldAclWithProcsObject.cpp */; };
+		F90DCEFA1B97F4E800540DFF /* DldAclWithProcsObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE1E1B97F4E700540DFF /* DldAclWithProcsObject.h */; };
+		F90DCEFB1B97F4E800540DFF /* DldBackingFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE1F1B97F4E700540DFF /* DldBackingFile.cpp */; };
+		F90DCEFC1B97F4E800540DFF /* DldBackingFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE201B97F4E700540DFF /* DldBackingFile.h */; };
+		F90DCEFD1B97F4E800540DFF /* DldCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE211B97F4E700540DFF /* DldCommon.h */; };
+		F90DCEFE1B97F4E800540DFF /* DldCommonHashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE221B97F4E700540DFF /* DldCommonHashTable.cpp */; };
+		F90DCEFF1B97F4E800540DFF /* DldCommonHashTable.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE231B97F4E700540DFF /* DldCommonHashTable.h */; };
+		F90DCF001B97F4E800540DFF /* DldCoveringVnode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE241B97F4E700540DFF /* DldCoveringVnode.cpp */; };
+		F90DCF011B97F4E800540DFF /* DldCoveringVnode.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE251B97F4E700540DFF /* DldCoveringVnode.h */; };
+		F90DCF021B97F4E800540DFF /* DldDiskCAWL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE261B97F4E700540DFF /* DldDiskCAWL.cpp */; };
+		F90DCF031B97F4E800540DFF /* DldDiskCAWL.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE271B97F4E700540DFF /* DldDiskCAWL.h */; };
+		F90DCF041B97F4E800540DFF /* DldDVDWhiteList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE281B97F4E700540DFF /* DldDVDWhiteList.cpp */; };
+		F90DCF051B97F4E800540DFF /* DldDVDWhiteList.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE291B97F4E700540DFF /* DldDVDWhiteList.h */; };
+		F90DCF061B97F4E800540DFF /* DldEncryptionProviders.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE2A1B97F4E700540DFF /* DldEncryptionProviders.cpp */; };
+		F90DCF071B97F4E800540DFF /* DldEncryptionProviders.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE2B1B97F4E700540DFF /* DldEncryptionProviders.h */; };
+		F90DCF081B97F4E800540DFF /* DldFakeFSD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE2C1B97F4E700540DFF /* DldFakeFSD.cpp */; };
+		F90DCF091B97F4E800540DFF /* DldFakeFSD.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE2D1B97F4E700540DFF /* DldFakeFSD.h */; };
+		F90DCF0A1B97F4E800540DFF /* DldHookerCommonClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE2E1B97F4E700540DFF /* DldHookerCommonClass.cpp */; };
+		F90DCF0B1B97F4E800540DFF /* DldHookerCommonClass.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE2F1B97F4E700540DFF /* DldHookerCommonClass.h */; };
+		F90DCF0C1B97F4E800540DFF /* DldHookerCommonClass2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE301B97F4E700540DFF /* DldHookerCommonClass2.cpp */; };
+		F90DCF0D1B97F4E800540DFF /* DldHookerCommonClass2.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE311B97F4E700540DFF /* DldHookerCommonClass2.h */; };
+		F90DCF0E1B97F4E800540DFF /* DldInternalLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE321B97F4E700540DFF /* DldInternalLog.cpp */; };
+		F90DCF0F1B97F4E800540DFF /* DldInternalLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE331B97F4E700540DFF /* DldInternalLog.h */; };
+		F90DCF101B97F4E800540DFF /* DldIODataQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE341B97F4E700540DFF /* DldIODataQueue.cpp */; };
+		F90DCF111B97F4E800540DFF /* DldIODataQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE351B97F4E700540DFF /* DldIODataQueue.h */; };
+		F90DCF121B97F4E800540DFF /* DldIOKitHookDictionaryEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE361B97F4E700540DFF /* DldIOKitHookDictionaryEntry.cpp */; };
+		F90DCF131B97F4E800540DFF /* DldIOKitHookDictionaryEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE371B97F4E700540DFF /* DldIOKitHookDictionaryEntry.h */; };
+		F90DCF141B97F4E800540DFF /* DldIOKitHookEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE381B97F4E700540DFF /* DldIOKitHookEngine.cpp */; };
+		F90DCF151B97F4E800540DFF /* DldIOKitHookEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE391B97F4E700540DFF /* DldIOKitHookEngine.h */; };
+		F90DCF161B97F4E800540DFF /* DldIOLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE3A1B97F4E700540DFF /* DldIOLog.cpp */; };
+		F90DCF171B97F4E800540DFF /* DldIOLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE3B1B97F4E700540DFF /* DldIOLog.h */; };
+		F90DCF181B97F4E800540DFF /* DldIORegistryEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE3C1B97F4E700540DFF /* DldIORegistryEntry.cpp */; };
+		F90DCF191B97F4E800540DFF /* DldIORegistryEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE3D1B97F4E700540DFF /* DldIORegistryEntry.h */; };
+		F90DCF1A1B97F4E800540DFF /* DldIOSCSIMultimediaCommandsDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE3E1B97F4E700540DFF /* DldIOSCSIMultimediaCommandsDevice.cpp */; };
+		F90DCF1B1B97F4E800540DFF /* DldIOSCSIMultimediaCommandsDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE3F1B97F4E700540DFF /* DldIOSCSIMultimediaCommandsDevice.h */; };
+		F90DCF1C1B97F4E800540DFF /* DldIOSCSIPrimaryCommandsDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE401B97F4E700540DFF /* DldIOSCSIPrimaryCommandsDevice.cpp */; };
+		F90DCF1D1B97F4E800540DFF /* DldIOSCSIPrimaryCommandsDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE411B97F4E700540DFF /* DldIOSCSIPrimaryCommandsDevice.h */; };
+		F90DCF1E1B97F4E800540DFF /* DldIOSCSIProtocolInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE421B97F4E700540DFF /* DldIOSCSIProtocolInterface.cpp */; };
+		F90DCF1F1B97F4E800540DFF /* DldIOSCSIProtocolInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE431B97F4E700540DFF /* DldIOSCSIProtocolInterface.h */; };
+		F90DCF201B97F4E800540DFF /* DldIOService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE441B97F4E700540DFF /* DldIOService.cpp */; };
+		F90DCF211B97F4E800540DFF /* DldIOService.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE451B97F4E700540DFF /* DldIOService.h */; };
+		F90DCF221B97F4E800540DFF /* DldIOServiceTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE461B97F4E700540DFF /* DldIOServiceTree.cpp */; };
+		F90DCF231B97F4E800540DFF /* DldIOServiceTree.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE471B97F4E700540DFF /* DldIOServiceTree.h */; };
+		F90DCF241B97F4E800540DFF /* DldIOShadow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE481B97F4E700540DFF /* DldIOShadow.cpp */; };
+		F90DCF251B97F4E800540DFF /* DldIOShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE491B97F4E700540DFF /* DldIOShadow.h */; };
+		F90DCF261B97F4E800540DFF /* DldIOShadowFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE4A1B97F4E700540DFF /* DldIOShadowFile.cpp */; };
+		F90DCF271B97F4E800540DFF /* DldIOShadowFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE4B1B97F4E700540DFF /* DldIOShadowFile.h */; };
+		F90DCF281B97F4E800540DFF /* DldIOUSBControllerV3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE4C1B97F4E700540DFF /* DldIOUSBControllerV3.cpp */; };
+		F90DCF291B97F4E800540DFF /* DldIOUSBControllerV3.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE4D1B97F4E700540DFF /* DldIOUSBControllerV3.h */; };
+		F90DCF2A1B97F4E800540DFF /* DldIOUserClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE4E1B97F4E700540DFF /* DldIOUserClient.cpp */; };
+		F90DCF2B1B97F4E800540DFF /* DldIOUserClient.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE4F1B97F4E700540DFF /* DldIOUserClient.h */; };
+		F90DCF2C1B97F4E800540DFF /* DldIOUserClientRef.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE501B97F4E700540DFF /* DldIOUserClientRef.h */; };
+		F90DCF2D1B97F4E800540DFF /* DldIOVnode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE511B97F4E700540DFF /* DldIOVnode.cpp */; };
+		F90DCF2E1B97F4E800540DFF /* DldIOVnode.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE521B97F4E700540DFF /* DldIOVnode.h */; };
+		F90DCF2F1B97F4E800540DFF /* DldIPCUserClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE531B97F4E700540DFF /* DldIPCUserClient.cpp */; };
+		F90DCF301B97F4E800540DFF /* DldIPCUserClient.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE541B97F4E700540DFF /* DldIPCUserClient.h */; };
+		F90DCF311B97F4E800540DFF /* DldKauthCredArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE551B97F4E700540DFF /* DldKauthCredArray.cpp */; };
+		F90DCF321B97F4E800540DFF /* DldKauthCredArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE561B97F4E700540DFF /* DldKauthCredArray.h */; };
+		F90DCF331B97F4E800540DFF /* DldKauthCredEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE571B97F4E700540DFF /* DldKauthCredEntry.cpp */; };
+		F90DCF341B97F4E800540DFF /* DldKauthCredEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE581B97F4E700540DFF /* DldKauthCredEntry.h */; };
+		F90DCF351B97F4E800540DFF /* DldKAuthVnodeGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE591B97F4E700540DFF /* DldKAuthVnodeGate.cpp */; };
+		F90DCF361B97F4E800540DFF /* DldKAuthVnodeGate.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE5A1B97F4E700540DFF /* DldKAuthVnodeGate.h */; };
+		F90DCF371B97F4E800540DFF /* DldKernAuthorization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE5B1B97F4E700540DFF /* DldKernAuthorization.cpp */; };
+		F90DCF381B97F4E800540DFF /* DldKernAuthorization.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE5C1B97F4E700540DFF /* DldKernAuthorization.h */; };
+		F90DCF391B97F4E800540DFF /* DldKernelToUserEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE5D1B97F4E700540DFF /* DldKernelToUserEvents.cpp */; };
+		F90DCF3A1B97F4E800540DFF /* DldKernelToUserEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE5E1B97F4E700540DFF /* DldKernelToUserEvents.h */; };
+		F90DCF3B1B97F4E800540DFF /* DldMachO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE5F1B97F4E700540DFF /* DldMachO.cpp */; };
+		F90DCF3C1B97F4E800540DFF /* DldMachO.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE601B97F4E700540DFF /* DldMachO.h */; };
+		F90DCF3D1B97F4E800540DFF /* DldMacPolicy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE611B97F4E700540DFF /* DldMacPolicy.cpp */; };
+		F90DCF3E1B97F4E800540DFF /* DldMacPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE621B97F4E700540DFF /* DldMacPolicy.h */; };
+		F90DCF3F1B97F4E800540DFF /* DldMsToMacTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE631B97F4E700540DFF /* DldMsToMacTypes.h */; };
+		F90DCF401B97F4E800540DFF /* DldNetworkInterfaceFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE641B97F4E700540DFF /* DldNetworkInterfaceFilter.cpp */; };
+		F90DCF411B97F4E800540DFF /* DldNetworkInterfaceFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE651B97F4E700540DFF /* DldNetworkInterfaceFilter.h */; };
+		F90DCF421B97F4E800540DFF /* DldObjectProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE661B97F4E700540DFF /* DldObjectProperty.cpp */; };
+		F90DCF431B97F4E800540DFF /* DldObjectProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE671B97F4E700540DFF /* DldObjectProperty.h */; };
+		F90DCF441B97F4E800540DFF /* DldPowerManagement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE681B97F4E700540DFF /* DldPowerManagement.cpp */; };
+		F90DCF451B97F4E800540DFF /* DldPowerManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE691B97F4E700540DFF /* DldPowerManagement.h */; };
+		F90DCF461B97F4E800540DFF /* DldProtectedFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE6A1B97F4E700540DFF /* DldProtectedFile.cpp */; };
+		F90DCF471B97F4E800540DFF /* DldProtectedFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE6B1B97F4E700540DFF /* DldProtectedFile.h */; };
+		F90DCF481B97F4E800540DFF /* DldProtectedProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE6C1B97F4E700540DFF /* DldProtectedProcess.cpp */; };
+		F90DCF491B97F4E800540DFF /* DldProtectedProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE6D1B97F4E700540DFF /* DldProtectedProcess.h */; };
+		F90DCF5D1B97F4E800540DFF /* DldSCSITask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE951B97F4E700540DFF /* DldSCSITask.cpp */; };
+		F90DCF5E1B97F4E800540DFF /* DldSCSITask.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE961B97F4E700540DFF /* DldSCSITask.h */; };
+		F90DCF5F1B97F4E800540DFF /* DldServiceProtection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE971B97F4E700540DFF /* DldServiceProtection.cpp */; };
+		F90DCF601B97F4E800540DFF /* DldServiceProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE981B97F4E700540DFF /* DldServiceProtection.h */; };
+		F90DCF611B97F4E800540DFF /* DldSparseFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE991B97F4E700540DFF /* DldSparseFile.cpp */; };
+		F90DCF621B97F4E800540DFF /* DldSparseFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE9A1B97F4E700540DFF /* DldSparseFile.h */; };
+		F90DCF631B97F4E800540DFF /* DldSupportingCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE9B1B97F4E700540DFF /* DldSupportingCode.cpp */; };
+		F90DCF641B97F4E800540DFF /* DldSupportingCode.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE9C1B97F4E700540DFF /* DldSupportingCode.h */; };
+		F90DCF651B97F4E800540DFF /* DldUndocumentedQuirks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE9D1B97F4E700540DFF /* DldUndocumentedQuirks.cpp */; };
+		F90DCF661B97F4E800540DFF /* DldUndocumentedQuirks.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE9E1B97F4E700540DFF /* DldUndocumentedQuirks.h */; };
+		F90DCF671B97F4E800540DFF /* DldUserToKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE9F1B97F4E700540DFF /* DldUserToKernel.h */; };
+		F90DCF681B97F4E800540DFF /* DldVfsMntHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEA01B97F4E700540DFF /* DldVfsMntHook.cpp */; };
+		F90DCF691B97F4E800540DFF /* DldVfsMntHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEA11B97F4E700540DFF /* DldVfsMntHook.h */; };
+		F90DCF6A1B97F4E800540DFF /* DldVmPmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEA21B97F4E700540DFF /* DldVmPmap.cpp */; };
+		F90DCF6B1B97F4E800540DFF /* DldVmPmap.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEA31B97F4E700540DFF /* DldVmPmap.h */; };
+		F90DCF6C1B97F4E800540DFF /* DldVnodeHashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEA41B97F4E800540DFF /* DldVnodeHashTable.cpp */; };
+		F90DCF6D1B97F4E800540DFF /* DldVnodeHashTable.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEA51B97F4E800540DFF /* DldVnodeHashTable.h */; };
+		F90DCF6E1B97F4E800540DFF /* DldVNodeHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEA61B97F4E800540DFF /* DldVNodeHook.cpp */; };
+		F90DCF6F1B97F4E800540DFF /* DldVNodeHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEA71B97F4E800540DFF /* DldVNodeHook.h */; };
+		F90DCF701B97F4E800540DFF /* DldWhiteList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEA81B97F4E800540DFF /* DldWhiteList.cpp */; };
+		F90DCF711B97F4E800540DFF /* DldWhiteList.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEA91B97F4E800540DFF /* DldWhiteList.h */; };
+		F90DCF741B97F4E800540DFF /* IOBlockStorageDriverDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEAC1B97F4E800540DFF /* IOBlockStorageDriverDldHook.cpp */; };
+		F90DCF751B97F4E800540DFF /* IOBlockStorageDriverDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEAD1B97F4E800540DFF /* IOBlockStorageDriverDldHook.h */; };
+		F90DCF761B97F4E800540DFF /* IOBlockStorageServicesDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEAE1B97F4E800540DFF /* IOBlockStorageServicesDldHook.cpp */; };
+		F90DCF771B97F4E800540DFF /* IOBlockStorageServicesDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEAF1B97F4E800540DFF /* IOBlockStorageServicesDldHook.h */; };
+		F90DCF781B97F4E800540DFF /* IOBSDSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEB01B97F4E800540DFF /* IOBSDSystem.cpp */; };
+		F90DCF791B97F4E800540DFF /* IOBSDSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEB11B97F4E800540DFF /* IOBSDSystem.h */; };
+		F90DCF7A1B97F4E800540DFF /* IOFDiskPartitionSchemeDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEB21B97F4E800540DFF /* IOFDiskPartitionSchemeDldHook.cpp */; };
+		F90DCF7B1B97F4E800540DFF /* IOFDiskPartitionSchemeDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEB31B97F4E800540DFF /* IOFDiskPartitionSchemeDldHook.h */; };
+		F90DCF7C1B97F4E800540DFF /* IOHIDSystemDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEB41B97F4E800540DFF /* IOHIDSystemDldHook.cpp */; };
+		F90DCF7D1B97F4E800540DFF /* IOHIDSystemDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEB51B97F4E800540DFF /* IOHIDSystemDldHook.h */; };
+		F90DCF7E1B97F4E800540DFF /* IOMediaBSDClientDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEB61B97F4E800540DFF /* IOMediaBSDClientDldHook.cpp */; };
+		F90DCF7F1B97F4E800540DFF /* IOMediaBSDClientDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEB71B97F4E800540DFF /* IOMediaBSDClientDldHook.h */; };
+		F90DCF801B97F4E800540DFF /* IOMediaDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEB81B97F4E800540DFF /* IOMediaDldHook.cpp */; };
+		F90DCF811B97F4E800540DFF /* IOMediaDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEB91B97F4E800540DFF /* IOMediaDldHook.h */; };
+		F90DCF821B97F4E800540DFF /* IOSCSIPeripheralDeviceNubDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEBA1B97F4E800540DFF /* IOSCSIPeripheralDeviceNubDldHook.cpp */; };
+		F90DCF831B97F4E800540DFF /* IOSCSIPeripheralDeviceNubDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEBB1B97F4E800540DFF /* IOSCSIPeripheralDeviceNubDldHook.h */; };
+		F90DCF841B97F4E800540DFF /* IOSCSIPeripheralDeviceType05DldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEBC1B97F4E800540DFF /* IOSCSIPeripheralDeviceType05DldHook.cpp */; };
+		F90DCF851B97F4E800540DFF /* IOSCSIPeripheralDeviceType05DldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEBD1B97F4E800540DFF /* IOSCSIPeripheralDeviceType05DldHook.h */; };
+		F90DCF861B97F4E800540DFF /* IOSerialStreamSyncDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEBE1B97F4E800540DFF /* IOSerialStreamSyncDldHook.cpp */; };
+		F90DCF871B97F4E800540DFF /* IOSerialStreamSyncDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEBF1B97F4E800540DFF /* IOSerialStreamSyncDldHook.h */; };
+		F90DCF881B97F4E800540DFF /* IOServiceDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEC01B97F4E800540DFF /* IOServiceDldHook.cpp */; };
+		F90DCF891B97F4E800540DFF /* IOServiceDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEC11B97F4E800540DFF /* IOServiceDldHook.h */; };
+		F90DCF8A1B97F4E800540DFF /* IOUSBCompositeDriverDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEC21B97F4E800540DFF /* IOUSBCompositeDriverDldHook.cpp */; };
+		F90DCF8B1B97F4E800540DFF /* IOUSBCompositeDriverDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEC31B97F4E800540DFF /* IOUSBCompositeDriverDldHook.h */; };
+		F90DCF8C1B97F4E800540DFF /* IOUSBDeviceDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEC41B97F4E800540DFF /* IOUSBDeviceDldHook.cpp */; };
+		F90DCF8D1B97F4E800540DFF /* IOUSBDeviceDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEC51B97F4E800540DFF /* IOUSBDeviceDldHook.h */; };
+		F90DCF8E1B97F4E800540DFF /* IOUSBInterfaceDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEC61B97F4E800540DFF /* IOUSBInterfaceDldHook.cpp */; };
+		F90DCF8F1B97F4E800540DFF /* IOUSBInterfaceDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEC71B97F4E800540DFF /* IOUSBInterfaceDldHook.h */; };
+		F90DCF901B97F4E800540DFF /* IOUSBMassStorageClassDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCEC81B97F4E800540DFF /* IOUSBMassStorageClassDldHook.cpp */; };
+		F90DCF911B97F4E800540DFF /* IOUSBMassStorageClassDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEC91B97F4E800540DFF /* IOUSBMassStorageClassDldHook.h */; };
+		F90DCF941B97F4E800540DFF /* IOUserClientDldHook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCECC1B97F4E800540DFF /* IOUserClientDldHook.cpp */; };
+		F90DCF951B97F4E800540DFF /* IOUserClientDldHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCECD1B97F4E800540DFF /* IOUserClientDldHook.h */; };
+		F90DCF961B97F4E800540DFF /* iso9660.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCECE1B97F4E800540DFF /* iso9660.h */; };
+		F90DCF971B97F4E800540DFF /* iso13346.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCECF1B97F4E800540DFF /* iso13346.h */; };
+		F90DCF981B97F4E800540DFF /* md5_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = F90DCED01B97F4E800540DFF /* md5_hash.c */; };
+		F90DCF991B97F4E800540DFF /* md5_hash.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCED11B97F4E800540DFF /* md5_hash.h */; };
+		F90DCF9A1B97F4E800540DFF /* DldDataBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCED31B97F4E800540DFF /* DldDataBuffer.cpp */; };
+		F90DCF9B1B97F4E800540DFF /* DldDataBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCED41B97F4E800540DFF /* DldDataBuffer.h */; };
+		F90DCF9C1B97F4E800540DFF /* DldSocketFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCED51B97F4E800540DFF /* DldSocketFilter.cpp */; };
+		F90DCF9D1B97F4E800540DFF /* DldSocketFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCED61B97F4E800540DFF /* DldSocketFilter.h */; };
+		F90DCF9E1B97F4E800540DFF /* DldSocketObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCED71B97F4E800540DFF /* DldSocketObject.cpp */; };
+		F90DCF9F1B97F4E800540DFF /* DldSocketObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCED81B97F4E800540DFF /* DldSocketObject.h */; };
+		F90DCFA01B97F4E800540DFF /* nlist.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCED91B97F4E800540DFF /* nlist.h */; };
+		F90DCFA11B97F4E800540DFF /* udf.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEDA1B97F4E800540DFF /* udf.h */; };
+		F90DCFAA1B97F86F00540DFF /* DLDriver-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F90DCFA71B97F86F00540DFF /* DLDriver-Info.plist */; };
+		F90DCFAB1B97F86F00540DFF /* DLDriver-Info109.plist in Resources */ = {isa = PBXBuildFile; fileRef = F90DCFA81B97F86F00540DFF /* DLDriver-Info109.plist */; };
+		F90DCFAC1B97F86F00540DFF /* DLDriver-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F90DCFA91B97F86F00540DFF /* DLDriver-Prefix.pch */; };
+		F90DCFAF1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCFAD1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.cpp */; };
+		F90DCFB01B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCFAE1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F90DCDE71B97F45F00540DFF /* DLDriver.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLDriver.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90DCDEB1B97F45F00540DFF /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		F90DCDFB1B97F4E700540DFF /* AppleUSBEHCIDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppleUSBEHCIDldHook.cpp; path = ../../AppleUSBEHCIDldHook.cpp; sourceTree = "<group>"; };
+		F90DCDFC1B97F4E700540DFF /* AppleUSBEHCIDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleUSBEHCIDldHook.h; path = ../../AppleUSBEHCIDldHook.h; sourceTree = "<group>"; };
+		F90DCDFD1B97F4E700540DFF /* AppleUSBOHCIDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppleUSBOHCIDldHook.cpp; path = ../../AppleUSBOHCIDldHook.cpp; sourceTree = "<group>"; };
+		F90DCDFE1B97F4E700540DFF /* AppleUSBOHCIDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleUSBOHCIDldHook.h; path = ../../AppleUSBOHCIDldHook.h; sourceTree = "<group>"; };
+		F90DCDFF1B97F4E700540DFF /* DeviceLockIOKitDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DeviceLockIOKitDriver.cpp; path = ../../DeviceLockIOKitDriver.cpp; sourceTree = "<group>"; };
+		F90DCE001B97F4E700540DFF /* DeviceLockIOKitDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceLockIOKitDriver.h; path = ../../DeviceLockIOKitDriver.h; sourceTree = "<group>"; };
+		F90DCE011B97F4E700540DFF /* DeviceLockIPCDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DeviceLockIPCDriver.cpp; path = ../../DeviceLockIPCDriver.cpp; sourceTree = "<group>"; };
+		F90DCE021B97F4E700540DFF /* DeviceLockIPCDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceLockIPCDriver.h; path = ../../DeviceLockIPCDriver.h; sourceTree = "<group>"; };
+		F90DCE061B97F4E700540DFF /* distorm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = distorm.h; sourceTree = "<group>"; };
+		F90DCE071B97F4E700540DFF /* mnemonics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mnemonics.h; sourceTree = "<group>"; };
+		F90DCE091B97F4E700540DFF /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		F90DCE0A1B97F4E700540DFF /* decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = decoder.c; sourceTree = "<group>"; };
+		F90DCE0B1B97F4E700540DFF /* decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decoder.h; sourceTree = "<group>"; };
+		F90DCE0C1B97F4E700540DFF /* distorm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = distorm.c; sourceTree = "<group>"; };
+		F90DCE0D1B97F4E700540DFF /* instructions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = instructions.c; sourceTree = "<group>"; };
+		F90DCE0E1B97F4E700540DFF /* instructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = instructions.h; sourceTree = "<group>"; };
+		F90DCE0F1B97F4E700540DFF /* insts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = insts.c; sourceTree = "<group>"; };
+		F90DCE101B97F4E700540DFF /* insts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insts.h; sourceTree = "<group>"; };
+		F90DCE111B97F4E700540DFF /* mnemonics.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mnemonics.c; sourceTree = "<group>"; };
+		F90DCE121B97F4E700540DFF /* operands.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = operands.c; sourceTree = "<group>"; };
+		F90DCE131B97F4E700540DFF /* operands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = operands.h; sourceTree = "<group>"; };
+		F90DCE141B97F4E700540DFF /* prefix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prefix.c; sourceTree = "<group>"; };
+		F90DCE151B97F4E700540DFF /* prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.h; sourceTree = "<group>"; };
+		F90DCE161B97F4E700540DFF /* textdefs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = textdefs.c; sourceTree = "<group>"; };
+		F90DCE171B97F4E700540DFF /* textdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textdefs.h; sourceTree = "<group>"; };
+		F90DCE181B97F4E700540DFF /* wstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wstring.c; sourceTree = "<group>"; };
+		F90DCE191B97F4E700540DFF /* wstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wstring.h; sourceTree = "<group>"; };
+		F90DCE1A1B97F4E700540DFF /* x86defs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x86defs.c; sourceTree = "<group>"; };
+		F90DCE1B1B97F4E700540DFF /* x86defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x86defs.h; sourceTree = "<group>"; };
+		F90DCE1C1B97F4E700540DFF /* DldAclObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldAclObject.h; path = ../../DldAclObject.h; sourceTree = "<group>"; };
+		F90DCE1D1B97F4E700540DFF /* DldAclWithProcsObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldAclWithProcsObject.cpp; path = ../../DldAclWithProcsObject.cpp; sourceTree = "<group>"; };
+		F90DCE1E1B97F4E700540DFF /* DldAclWithProcsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldAclWithProcsObject.h; path = ../../DldAclWithProcsObject.h; sourceTree = "<group>"; };
+		F90DCE1F1B97F4E700540DFF /* DldBackingFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldBackingFile.cpp; path = ../../DldBackingFile.cpp; sourceTree = "<group>"; };
+		F90DCE201B97F4E700540DFF /* DldBackingFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldBackingFile.h; path = ../../DldBackingFile.h; sourceTree = "<group>"; };
+		F90DCE211B97F4E700540DFF /* DldCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldCommon.h; path = ../../DldCommon.h; sourceTree = "<group>"; };
+		F90DCE221B97F4E700540DFF /* DldCommonHashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldCommonHashTable.cpp; path = ../../DldCommonHashTable.cpp; sourceTree = "<group>"; };
+		F90DCE231B97F4E700540DFF /* DldCommonHashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldCommonHashTable.h; path = ../../DldCommonHashTable.h; sourceTree = "<group>"; };
+		F90DCE241B97F4E700540DFF /* DldCoveringVnode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldCoveringVnode.cpp; path = ../../DldCoveringVnode.cpp; sourceTree = "<group>"; };
+		F90DCE251B97F4E700540DFF /* DldCoveringVnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldCoveringVnode.h; path = ../../DldCoveringVnode.h; sourceTree = "<group>"; };
+		F90DCE261B97F4E700540DFF /* DldDiskCAWL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldDiskCAWL.cpp; path = ../../DldDiskCAWL.cpp; sourceTree = "<group>"; };
+		F90DCE271B97F4E700540DFF /* DldDiskCAWL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldDiskCAWL.h; path = ../../DldDiskCAWL.h; sourceTree = "<group>"; };
+		F90DCE281B97F4E700540DFF /* DldDVDWhiteList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldDVDWhiteList.cpp; path = ../../DldDVDWhiteList.cpp; sourceTree = "<group>"; };
+		F90DCE291B97F4E700540DFF /* DldDVDWhiteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldDVDWhiteList.h; path = ../../DldDVDWhiteList.h; sourceTree = "<group>"; };
+		F90DCE2A1B97F4E700540DFF /* DldEncryptionProviders.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldEncryptionProviders.cpp; path = ../../DldEncryptionProviders.cpp; sourceTree = "<group>"; };
+		F90DCE2B1B97F4E700540DFF /* DldEncryptionProviders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldEncryptionProviders.h; path = ../../DldEncryptionProviders.h; sourceTree = "<group>"; };
+		F90DCE2C1B97F4E700540DFF /* DldFakeFSD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldFakeFSD.cpp; path = ../../DldFakeFSD.cpp; sourceTree = "<group>"; };
+		F90DCE2D1B97F4E700540DFF /* DldFakeFSD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldFakeFSD.h; path = ../../DldFakeFSD.h; sourceTree = "<group>"; };
+		F90DCE2E1B97F4E700540DFF /* DldHookerCommonClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldHookerCommonClass.cpp; path = ../../DldHookerCommonClass.cpp; sourceTree = "<group>"; };
+		F90DCE2F1B97F4E700540DFF /* DldHookerCommonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldHookerCommonClass.h; path = ../../DldHookerCommonClass.h; sourceTree = "<group>"; };
+		F90DCE301B97F4E700540DFF /* DldHookerCommonClass2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldHookerCommonClass2.cpp; path = ../../DldHookerCommonClass2.cpp; sourceTree = "<group>"; };
+		F90DCE311B97F4E700540DFF /* DldHookerCommonClass2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldHookerCommonClass2.h; path = ../../DldHookerCommonClass2.h; sourceTree = "<group>"; };
+		F90DCE321B97F4E700540DFF /* DldInternalLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldInternalLog.cpp; path = ../../DldInternalLog.cpp; sourceTree = "<group>"; };
+		F90DCE331B97F4E700540DFF /* DldInternalLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldInternalLog.h; path = ../../DldInternalLog.h; sourceTree = "<group>"; };
+		F90DCE341B97F4E700540DFF /* DldIODataQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIODataQueue.cpp; path = ../../DldIODataQueue.cpp; sourceTree = "<group>"; };
+		F90DCE351B97F4E700540DFF /* DldIODataQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIODataQueue.h; path = ../../DldIODataQueue.h; sourceTree = "<group>"; };
+		F90DCE361B97F4E700540DFF /* DldIOKitHookDictionaryEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIOKitHookDictionaryEntry.cpp; path = ../../DldIOKitHookDictionaryEntry.cpp; sourceTree = "<group>"; };
+		F90DCE371B97F4E700540DFF /* DldIOKitHookDictionaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIOKitHookDictionaryEntry.h; path = ../../DldIOKitHookDictionaryEntry.h; sourceTree = "<group>"; };
+		F90DCE381B97F4E700540DFF /* DldIOKitHookEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIOKitHookEngine.cpp; path = ../../DldIOKitHookEngine.cpp; sourceTree = "<group>"; };
+		F90DCE391B97F4E700540DFF /* DldIOKitHookEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIOKitHookEngine.h; path = ../../DldIOKitHookEngine.h; sourceTree = "<group>"; };
+		F90DCE3A1B97F4E700540DFF /* DldIOLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIOLog.cpp; path = ../../DldIOLog.cpp; sourceTree = "<group>"; };
+		F90DCE3B1B97F4E700540DFF /* DldIOLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIOLog.h; path = ../../DldIOLog.h; sourceTree = "<group>"; };
+		F90DCE3C1B97F4E700540DFF /* DldIORegistryEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIORegistryEntry.cpp; path = ../../DldIORegistryEntry.cpp; sourceTree = "<group>"; };
+		F90DCE3D1B97F4E700540DFF /* DldIORegistryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIORegistryEntry.h; path = ../../DldIORegistryEntry.h; sourceTree = "<group>"; };
+		F90DCE3E1B97F4E700540DFF /* DldIOSCSIMultimediaCommandsDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIOSCSIMultimediaCommandsDevice.cpp; path = ../../DldIOSCSIMultimediaCommandsDevice.cpp; sourceTree = "<group>"; };
+		F90DCE3F1B97F4E700540DFF /* DldIOSCSIMultimediaCommandsDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIOSCSIMultimediaCommandsDevice.h; path = ../../DldIOSCSIMultimediaCommandsDevice.h; sourceTree = "<group>"; };
+		F90DCE401B97F4E700540DFF /* DldIOSCSIPrimaryCommandsDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIOSCSIPrimaryCommandsDevice.cpp; path = ../../DldIOSCSIPrimaryCommandsDevice.cpp; sourceTree = "<group>"; };
+		F90DCE411B97F4E700540DFF /* DldIOSCSIPrimaryCommandsDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIOSCSIPrimaryCommandsDevice.h; path = ../../DldIOSCSIPrimaryCommandsDevice.h; sourceTree = "<group>"; };
+		F90DCE421B97F4E700540DFF /* DldIOSCSIProtocolInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIOSCSIProtocolInterface.cpp; path = ../../DldIOSCSIProtocolInterface.cpp; sourceTree = "<group>"; };
+		F90DCE431B97F4E700540DFF /* DldIOSCSIProtocolInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIOSCSIProtocolInterface.h; path = ../../DldIOSCSIProtocolInterface.h; sourceTree = "<group>"; };
+		F90DCE441B97F4E700540DFF /* DldIOService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIOService.cpp; path = ../../DldIOService.cpp; sourceTree = "<group>"; };
+		F90DCE451B97F4E700540DFF /* DldIOService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIOService.h; path = ../../DldIOService.h; sourceTree = "<group>"; };
+		F90DCE461B97F4E700540DFF /* DldIOServiceTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIOServiceTree.cpp; path = ../../DldIOServiceTree.cpp; sourceTree = "<group>"; };
+		F90DCE471B97F4E700540DFF /* DldIOServiceTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIOServiceTree.h; path = ../../DldIOServiceTree.h; sourceTree = "<group>"; };
+		F90DCE481B97F4E700540DFF /* DldIOShadow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIOShadow.cpp; path = ../../DldIOShadow.cpp; sourceTree = "<group>"; };
+		F90DCE491B97F4E700540DFF /* DldIOShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIOShadow.h; path = ../../DldIOShadow.h; sourceTree = "<group>"; };
+		F90DCE4A1B97F4E700540DFF /* DldIOShadowFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIOShadowFile.cpp; path = ../../DldIOShadowFile.cpp; sourceTree = "<group>"; };
+		F90DCE4B1B97F4E700540DFF /* DldIOShadowFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIOShadowFile.h; path = ../../DldIOShadowFile.h; sourceTree = "<group>"; };
+		F90DCE4C1B97F4E700540DFF /* DldIOUSBControllerV3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIOUSBControllerV3.cpp; path = ../../DldIOUSBControllerV3.cpp; sourceTree = "<group>"; };
+		F90DCE4D1B97F4E700540DFF /* DldIOUSBControllerV3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIOUSBControllerV3.h; path = ../../DldIOUSBControllerV3.h; sourceTree = "<group>"; };
+		F90DCE4E1B97F4E700540DFF /* DldIOUserClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIOUserClient.cpp; path = ../../DldIOUserClient.cpp; sourceTree = "<group>"; };
+		F90DCE4F1B97F4E700540DFF /* DldIOUserClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIOUserClient.h; path = ../../DldIOUserClient.h; sourceTree = "<group>"; };
+		F90DCE501B97F4E700540DFF /* DldIOUserClientRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIOUserClientRef.h; path = ../../DldIOUserClientRef.h; sourceTree = "<group>"; };
+		F90DCE511B97F4E700540DFF /* DldIOVnode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIOVnode.cpp; path = ../../DldIOVnode.cpp; sourceTree = "<group>"; };
+		F90DCE521B97F4E700540DFF /* DldIOVnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIOVnode.h; path = ../../DldIOVnode.h; sourceTree = "<group>"; };
+		F90DCE531B97F4E700540DFF /* DldIPCUserClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldIPCUserClient.cpp; path = ../../DldIPCUserClient.cpp; sourceTree = "<group>"; };
+		F90DCE541B97F4E700540DFF /* DldIPCUserClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldIPCUserClient.h; path = ../../DldIPCUserClient.h; sourceTree = "<group>"; };
+		F90DCE551B97F4E700540DFF /* DldKauthCredArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldKauthCredArray.cpp; path = ../../DldKauthCredArray.cpp; sourceTree = "<group>"; };
+		F90DCE561B97F4E700540DFF /* DldKauthCredArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldKauthCredArray.h; path = ../../DldKauthCredArray.h; sourceTree = "<group>"; };
+		F90DCE571B97F4E700540DFF /* DldKauthCredEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldKauthCredEntry.cpp; path = ../../DldKauthCredEntry.cpp; sourceTree = "<group>"; };
+		F90DCE581B97F4E700540DFF /* DldKauthCredEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldKauthCredEntry.h; path = ../../DldKauthCredEntry.h; sourceTree = "<group>"; };
+		F90DCE591B97F4E700540DFF /* DldKAuthVnodeGate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldKAuthVnodeGate.cpp; path = ../../DldKAuthVnodeGate.cpp; sourceTree = "<group>"; };
+		F90DCE5A1B97F4E700540DFF /* DldKAuthVnodeGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldKAuthVnodeGate.h; path = ../../DldKAuthVnodeGate.h; sourceTree = "<group>"; };
+		F90DCE5B1B97F4E700540DFF /* DldKernAuthorization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldKernAuthorization.cpp; path = ../../DldKernAuthorization.cpp; sourceTree = "<group>"; };
+		F90DCE5C1B97F4E700540DFF /* DldKernAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldKernAuthorization.h; path = ../../DldKernAuthorization.h; sourceTree = "<group>"; };
+		F90DCE5D1B97F4E700540DFF /* DldKernelToUserEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldKernelToUserEvents.cpp; path = ../../DldKernelToUserEvents.cpp; sourceTree = "<group>"; };
+		F90DCE5E1B97F4E700540DFF /* DldKernelToUserEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldKernelToUserEvents.h; path = ../../DldKernelToUserEvents.h; sourceTree = "<group>"; };
+		F90DCE5F1B97F4E700540DFF /* DldMachO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldMachO.cpp; path = ../../DldMachO.cpp; sourceTree = "<group>"; };
+		F90DCE601B97F4E700540DFF /* DldMachO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldMachO.h; path = ../../DldMachO.h; sourceTree = "<group>"; };
+		F90DCE611B97F4E700540DFF /* DldMacPolicy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldMacPolicy.cpp; path = ../../DldMacPolicy.cpp; sourceTree = "<group>"; };
+		F90DCE621B97F4E700540DFF /* DldMacPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldMacPolicy.h; path = ../../DldMacPolicy.h; sourceTree = "<group>"; };
+		F90DCE631B97F4E700540DFF /* DldMsToMacTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldMsToMacTypes.h; path = ../../DldMsToMacTypes.h; sourceTree = "<group>"; };
+		F90DCE641B97F4E700540DFF /* DldNetworkInterfaceFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldNetworkInterfaceFilter.cpp; path = ../../DldNetworkInterfaceFilter.cpp; sourceTree = "<group>"; };
+		F90DCE651B97F4E700540DFF /* DldNetworkInterfaceFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldNetworkInterfaceFilter.h; path = ../../DldNetworkInterfaceFilter.h; sourceTree = "<group>"; };
+		F90DCE661B97F4E700540DFF /* DldObjectProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldObjectProperty.cpp; path = ../../DldObjectProperty.cpp; sourceTree = "<group>"; };
+		F90DCE671B97F4E700540DFF /* DldObjectProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldObjectProperty.h; path = ../../DldObjectProperty.h; sourceTree = "<group>"; };
+		F90DCE681B97F4E700540DFF /* DldPowerManagement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldPowerManagement.cpp; path = ../../DldPowerManagement.cpp; sourceTree = "<group>"; };
+		F90DCE691B97F4E700540DFF /* DldPowerManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldPowerManagement.h; path = ../../DldPowerManagement.h; sourceTree = "<group>"; };
+		F90DCE6A1B97F4E700540DFF /* DldProtectedFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldProtectedFile.cpp; path = ../../DldProtectedFile.cpp; sourceTree = "<group>"; };
+		F90DCE6B1B97F4E700540DFF /* DldProtectedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldProtectedFile.h; path = ../../DldProtectedFile.h; sourceTree = "<group>"; };
+		F90DCE6C1B97F4E700540DFF /* DldProtectedProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldProtectedProcess.cpp; path = ../../DldProtectedProcess.cpp; sourceTree = "<group>"; };
+		F90DCE6D1B97F4E700540DFF /* DldProtectedProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldProtectedProcess.h; path = ../../DldProtectedProcess.h; sourceTree = "<group>"; };
+		F90DCE951B97F4E700540DFF /* DldSCSITask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldSCSITask.cpp; path = ../../DldSCSITask.cpp; sourceTree = "<group>"; };
+		F90DCE961B97F4E700540DFF /* DldSCSITask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldSCSITask.h; path = ../../DldSCSITask.h; sourceTree = "<group>"; };
+		F90DCE971B97F4E700540DFF /* DldServiceProtection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldServiceProtection.cpp; path = ../../DldServiceProtection.cpp; sourceTree = "<group>"; };
+		F90DCE981B97F4E700540DFF /* DldServiceProtection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldServiceProtection.h; path = ../../DldServiceProtection.h; sourceTree = "<group>"; };
+		F90DCE991B97F4E700540DFF /* DldSparseFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldSparseFile.cpp; path = ../../DldSparseFile.cpp; sourceTree = "<group>"; };
+		F90DCE9A1B97F4E700540DFF /* DldSparseFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldSparseFile.h; path = ../../DldSparseFile.h; sourceTree = "<group>"; };
+		F90DCE9B1B97F4E700540DFF /* DldSupportingCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldSupportingCode.cpp; path = ../../DldSupportingCode.cpp; sourceTree = "<group>"; };
+		F90DCE9C1B97F4E700540DFF /* DldSupportingCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldSupportingCode.h; path = ../../DldSupportingCode.h; sourceTree = "<group>"; };
+		F90DCE9D1B97F4E700540DFF /* DldUndocumentedQuirks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldUndocumentedQuirks.cpp; path = ../../DldUndocumentedQuirks.cpp; sourceTree = "<group>"; };
+		F90DCE9E1B97F4E700540DFF /* DldUndocumentedQuirks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldUndocumentedQuirks.h; path = ../../DldUndocumentedQuirks.h; sourceTree = "<group>"; };
+		F90DCE9F1B97F4E700540DFF /* DldUserToKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldUserToKernel.h; path = ../../DldUserToKernel.h; sourceTree = "<group>"; };
+		F90DCEA01B97F4E700540DFF /* DldVfsMntHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldVfsMntHook.cpp; path = ../../DldVfsMntHook.cpp; sourceTree = "<group>"; };
+		F90DCEA11B97F4E700540DFF /* DldVfsMntHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldVfsMntHook.h; path = ../../DldVfsMntHook.h; sourceTree = "<group>"; };
+		F90DCEA21B97F4E700540DFF /* DldVmPmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldVmPmap.cpp; path = ../../DldVmPmap.cpp; sourceTree = "<group>"; };
+		F90DCEA31B97F4E700540DFF /* DldVmPmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldVmPmap.h; path = ../../DldVmPmap.h; sourceTree = "<group>"; };
+		F90DCEA41B97F4E800540DFF /* DldVnodeHashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldVnodeHashTable.cpp; path = ../../DldVnodeHashTable.cpp; sourceTree = "<group>"; };
+		F90DCEA51B97F4E800540DFF /* DldVnodeHashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldVnodeHashTable.h; path = ../../DldVnodeHashTable.h; sourceTree = "<group>"; };
+		F90DCEA61B97F4E800540DFF /* DldVNodeHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldVNodeHook.cpp; path = ../../DldVNodeHook.cpp; sourceTree = "<group>"; };
+		F90DCEA71B97F4E800540DFF /* DldVNodeHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldVNodeHook.h; path = ../../DldVNodeHook.h; sourceTree = "<group>"; };
+		F90DCEA81B97F4E800540DFF /* DldWhiteList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DldWhiteList.cpp; path = ../../DldWhiteList.cpp; sourceTree = "<group>"; };
+		F90DCEA91B97F4E800540DFF /* DldWhiteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DldWhiteList.h; path = ../../DldWhiteList.h; sourceTree = "<group>"; };
+		F90DCEAC1B97F4E800540DFF /* IOBlockStorageDriverDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOBlockStorageDriverDldHook.cpp; path = ../../IOBlockStorageDriverDldHook.cpp; sourceTree = "<group>"; };
+		F90DCEAD1B97F4E800540DFF /* IOBlockStorageDriverDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOBlockStorageDriverDldHook.h; path = ../../IOBlockStorageDriverDldHook.h; sourceTree = "<group>"; };
+		F90DCEAE1B97F4E800540DFF /* IOBlockStorageServicesDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOBlockStorageServicesDldHook.cpp; path = ../../IOBlockStorageServicesDldHook.cpp; sourceTree = "<group>"; };
+		F90DCEAF1B97F4E800540DFF /* IOBlockStorageServicesDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOBlockStorageServicesDldHook.h; path = ../../IOBlockStorageServicesDldHook.h; sourceTree = "<group>"; };
+		F90DCEB01B97F4E800540DFF /* IOBSDSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOBSDSystem.cpp; path = ../../IOBSDSystem.cpp; sourceTree = "<group>"; };
+		F90DCEB11B97F4E800540DFF /* IOBSDSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOBSDSystem.h; path = ../../IOBSDSystem.h; sourceTree = "<group>"; };
+		F90DCEB21B97F4E800540DFF /* IOFDiskPartitionSchemeDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOFDiskPartitionSchemeDldHook.cpp; path = ../../IOFDiskPartitionSchemeDldHook.cpp; sourceTree = "<group>"; };
+		F90DCEB31B97F4E800540DFF /* IOFDiskPartitionSchemeDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOFDiskPartitionSchemeDldHook.h; path = ../../IOFDiskPartitionSchemeDldHook.h; sourceTree = "<group>"; };
+		F90DCEB41B97F4E800540DFF /* IOHIDSystemDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOHIDSystemDldHook.cpp; path = ../../IOHIDSystemDldHook.cpp; sourceTree = "<group>"; };
+		F90DCEB51B97F4E800540DFF /* IOHIDSystemDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOHIDSystemDldHook.h; path = ../../IOHIDSystemDldHook.h; sourceTree = "<group>"; };
+		F90DCEB61B97F4E800540DFF /* IOMediaBSDClientDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOMediaBSDClientDldHook.cpp; path = ../../IOMediaBSDClientDldHook.cpp; sourceTree = "<group>"; };
+		F90DCEB71B97F4E800540DFF /* IOMediaBSDClientDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOMediaBSDClientDldHook.h; path = ../../IOMediaBSDClientDldHook.h; sourceTree = "<group>"; };
+		F90DCEB81B97F4E800540DFF /* IOMediaDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOMediaDldHook.cpp; path = ../../IOMediaDldHook.cpp; sourceTree = "<group>"; };
+		F90DCEB91B97F4E800540DFF /* IOMediaDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOMediaDldHook.h; path = ../../IOMediaDldHook.h; sourceTree = "<group>"; };
+		F90DCEBA1B97F4E800540DFF /* IOSCSIPeripheralDeviceNubDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOSCSIPeripheralDeviceNubDldHook.cpp; path = ../../IOSCSIPeripheralDeviceNubDldHook.cpp; sourceTree = "<group>"; };
+		F90DCEBB1B97F4E800540DFF /* IOSCSIPeripheralDeviceNubDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOSCSIPeripheralDeviceNubDldHook.h; path = ../../IOSCSIPeripheralDeviceNubDldHook.h; sourceTree = "<group>"; };
+		F90DCEBC1B97F4E800540DFF /* IOSCSIPeripheralDeviceType05DldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOSCSIPeripheralDeviceType05DldHook.cpp; path = ../../IOSCSIPeripheralDeviceType05DldHook.cpp; sourceTree = "<group>"; };
+		F90DCEBD1B97F4E800540DFF /* IOSCSIPeripheralDeviceType05DldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOSCSIPeripheralDeviceType05DldHook.h; path = ../../IOSCSIPeripheralDeviceType05DldHook.h; sourceTree = "<group>"; };
+		F90DCEBE1B97F4E800540DFF /* IOSerialStreamSyncDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOSerialStreamSyncDldHook.cpp; path = ../../IOSerialStreamSyncDldHook.cpp; sourceTree = "<group>"; };
+		F90DCEBF1B97F4E800540DFF /* IOSerialStreamSyncDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOSerialStreamSyncDldHook.h; path = ../../IOSerialStreamSyncDldHook.h; sourceTree = "<group>"; };
+		F90DCEC01B97F4E800540DFF /* IOServiceDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOServiceDldHook.cpp; path = ../../IOServiceDldHook.cpp; sourceTree = "<group>"; };
+		F90DCEC11B97F4E800540DFF /* IOServiceDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOServiceDldHook.h; path = ../../IOServiceDldHook.h; sourceTree = "<group>"; };
+		F90DCEC21B97F4E800540DFF /* IOUSBCompositeDriverDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOUSBCompositeDriverDldHook.cpp; path = ../../IOUSBCompositeDriverDldHook.cpp; sourceTree = "<group>"; };
+		F90DCEC31B97F4E800540DFF /* IOUSBCompositeDriverDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOUSBCompositeDriverDldHook.h; path = ../../IOUSBCompositeDriverDldHook.h; sourceTree = "<group>"; };
+		F90DCEC41B97F4E800540DFF /* IOUSBDeviceDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOUSBDeviceDldHook.cpp; path = ../../IOUSBDeviceDldHook.cpp; sourceTree = "<group>"; };
+		F90DCEC51B97F4E800540DFF /* IOUSBDeviceDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOUSBDeviceDldHook.h; path = ../../IOUSBDeviceDldHook.h; sourceTree = "<group>"; };
+		F90DCEC61B97F4E800540DFF /* IOUSBInterfaceDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOUSBInterfaceDldHook.cpp; path = ../../IOUSBInterfaceDldHook.cpp; sourceTree = "<group>"; };
+		F90DCEC71B97F4E800540DFF /* IOUSBInterfaceDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOUSBInterfaceDldHook.h; path = ../../IOUSBInterfaceDldHook.h; sourceTree = "<group>"; };
+		F90DCEC81B97F4E800540DFF /* IOUSBMassStorageClassDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOUSBMassStorageClassDldHook.cpp; path = ../../IOUSBMassStorageClassDldHook.cpp; sourceTree = "<group>"; };
+		F90DCEC91B97F4E800540DFF /* IOUSBMassStorageClassDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOUSBMassStorageClassDldHook.h; path = ../../IOUSBMassStorageClassDldHook.h; sourceTree = "<group>"; };
+		F90DCECC1B97F4E800540DFF /* IOUserClientDldHook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOUserClientDldHook.cpp; path = ../../IOUserClientDldHook.cpp; sourceTree = "<group>"; };
+		F90DCECD1B97F4E800540DFF /* IOUserClientDldHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOUserClientDldHook.h; path = ../../IOUserClientDldHook.h; sourceTree = "<group>"; };
+		F90DCECE1B97F4E800540DFF /* iso9660.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iso9660.h; path = ../../iso9660.h; sourceTree = "<group>"; };
+		F90DCECF1B97F4E800540DFF /* iso13346.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iso13346.h; path = ../../iso13346.h; sourceTree = "<group>"; };
+		F90DCED01B97F4E800540DFF /* md5_hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = md5_hash.c; path = ../../md5_hash.c; sourceTree = "<group>"; };
+		F90DCED11B97F4E800540DFF /* md5_hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = md5_hash.h; path = ../../md5_hash.h; sourceTree = "<group>"; };
+		F90DCED31B97F4E800540DFF /* DldDataBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DldDataBuffer.cpp; sourceTree = "<group>"; };
+		F90DCED41B97F4E800540DFF /* DldDataBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DldDataBuffer.h; sourceTree = "<group>"; };
+		F90DCED51B97F4E800540DFF /* DldSocketFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DldSocketFilter.cpp; sourceTree = "<group>"; };
+		F90DCED61B97F4E800540DFF /* DldSocketFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DldSocketFilter.h; sourceTree = "<group>"; };
+		F90DCED71B97F4E800540DFF /* DldSocketObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DldSocketObject.cpp; sourceTree = "<group>"; };
+		F90DCED81B97F4E800540DFF /* DldSocketObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DldSocketObject.h; sourceTree = "<group>"; };
+		F90DCED91B97F4E800540DFF /* nlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nlist.h; path = ../../nlist.h; sourceTree = "<group>"; };
+		F90DCEDA1B97F4E800540DFF /* udf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = udf.h; path = ../../udf.h; sourceTree = "<group>"; };
+		F90DCFA71B97F86F00540DFF /* DLDriver-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DLDriver-Info.plist"; sourceTree = "<group>"; };
+		F90DCFA81B97F86F00540DFF /* DLDriver-Info109.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DLDriver-Info109.plist"; sourceTree = "<group>"; };
+		F90DCFA91B97F86F00540DFF /* DLDriver-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DLDriver-Prefix.pch"; sourceTree = "<group>"; };
+		F90DCFAD1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOUSBMassStorageClassDldHook2.cpp; path = ../../IOUSBMassStorageClassDldHook2.cpp; sourceTree = "<group>"; };
+		F90DCFAE1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOUSBMassStorageClassDldHook2.h; path = ../../IOUSBMassStorageClassDldHook2.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F90DCDE21B97F45F00540DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F90DCDDC1B97F45F00540DFF = {
+			isa = PBXGroup;
+			children = (
+				F90DCDEC1B97F45F00540DFF /* DLDriver */,
+				F90DCDE91B97F45F00540DFF /* Frameworks */,
+				F90DCDE81B97F45F00540DFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F90DCDE81B97F45F00540DFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F90DCDE71B97F45F00540DFF /* DLDriver.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F90DCDE91B97F45F00540DFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F90DCDEA1B97F45F00540DFF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F90DCDEA1B97F45F00540DFF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F90DCDEB1B97F45F00540DFF /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F90DCDEC1B97F45F00540DFF /* DLDriver */ = {
+			isa = PBXGroup;
+			children = (
+				F90DCFA21B97F68200540DFF /* Supporting Files */,
+				F90DCDFB1B97F4E700540DFF /* AppleUSBEHCIDldHook.cpp */,
+				F90DCDFC1B97F4E700540DFF /* AppleUSBEHCIDldHook.h */,
+				F90DCDFD1B97F4E700540DFF /* AppleUSBOHCIDldHook.cpp */,
+				F90DCDFE1B97F4E700540DFF /* AppleUSBOHCIDldHook.h */,
+				F90DCDFF1B97F4E700540DFF /* DeviceLockIOKitDriver.cpp */,
+				F90DCE001B97F4E700540DFF /* DeviceLockIOKitDriver.h */,
+				F90DCE011B97F4E700540DFF /* DeviceLockIPCDriver.cpp */,
+				F90DCE021B97F4E700540DFF /* DeviceLockIPCDriver.h */,
+				F90DCE031B97F4E700540DFF /* distorm */,
+				F90DCE1C1B97F4E700540DFF /* DldAclObject.h */,
+				F90DCE1D1B97F4E700540DFF /* DldAclWithProcsObject.cpp */,
+				F90DCE1E1B97F4E700540DFF /* DldAclWithProcsObject.h */,
+				F90DCE1F1B97F4E700540DFF /* DldBackingFile.cpp */,
+				F90DCE201B97F4E700540DFF /* DldBackingFile.h */,
+				F90DCE211B97F4E700540DFF /* DldCommon.h */,
+				F90DCE221B97F4E700540DFF /* DldCommonHashTable.cpp */,
+				F90DCE231B97F4E700540DFF /* DldCommonHashTable.h */,
+				F90DCE241B97F4E700540DFF /* DldCoveringVnode.cpp */,
+				F90DCE251B97F4E700540DFF /* DldCoveringVnode.h */,
+				F90DCE261B97F4E700540DFF /* DldDiskCAWL.cpp */,
+				F90DCE271B97F4E700540DFF /* DldDiskCAWL.h */,
+				F90DCE281B97F4E700540DFF /* DldDVDWhiteList.cpp */,
+				F90DCE291B97F4E700540DFF /* DldDVDWhiteList.h */,
+				F90DCE2A1B97F4E700540DFF /* DldEncryptionProviders.cpp */,
+				F90DCE2B1B97F4E700540DFF /* DldEncryptionProviders.h */,
+				F90DCE2C1B97F4E700540DFF /* DldFakeFSD.cpp */,
+				F90DCE2D1B97F4E700540DFF /* DldFakeFSD.h */,
+				F90DCE2E1B97F4E700540DFF /* DldHookerCommonClass.cpp */,
+				F90DCE2F1B97F4E700540DFF /* DldHookerCommonClass.h */,
+				F90DCE301B97F4E700540DFF /* DldHookerCommonClass2.cpp */,
+				F90DCE311B97F4E700540DFF /* DldHookerCommonClass2.h */,
+				F90DCE321B97F4E700540DFF /* DldInternalLog.cpp */,
+				F90DCE331B97F4E700540DFF /* DldInternalLog.h */,
+				F90DCE341B97F4E700540DFF /* DldIODataQueue.cpp */,
+				F90DCE351B97F4E700540DFF /* DldIODataQueue.h */,
+				F90DCE361B97F4E700540DFF /* DldIOKitHookDictionaryEntry.cpp */,
+				F90DCE371B97F4E700540DFF /* DldIOKitHookDictionaryEntry.h */,
+				F90DCE381B97F4E700540DFF /* DldIOKitHookEngine.cpp */,
+				F90DCE391B97F4E700540DFF /* DldIOKitHookEngine.h */,
+				F90DCE3A1B97F4E700540DFF /* DldIOLog.cpp */,
+				F90DCE3B1B97F4E700540DFF /* DldIOLog.h */,
+				F90DCE3C1B97F4E700540DFF /* DldIORegistryEntry.cpp */,
+				F90DCE3D1B97F4E700540DFF /* DldIORegistryEntry.h */,
+				F90DCE3E1B97F4E700540DFF /* DldIOSCSIMultimediaCommandsDevice.cpp */,
+				F90DCE3F1B97F4E700540DFF /* DldIOSCSIMultimediaCommandsDevice.h */,
+				F90DCE401B97F4E700540DFF /* DldIOSCSIPrimaryCommandsDevice.cpp */,
+				F90DCE411B97F4E700540DFF /* DldIOSCSIPrimaryCommandsDevice.h */,
+				F90DCE421B97F4E700540DFF /* DldIOSCSIProtocolInterface.cpp */,
+				F90DCE431B97F4E700540DFF /* DldIOSCSIProtocolInterface.h */,
+				F90DCE441B97F4E700540DFF /* DldIOService.cpp */,
+				F90DCE451B97F4E700540DFF /* DldIOService.h */,
+				F90DCE461B97F4E700540DFF /* DldIOServiceTree.cpp */,
+				F90DCE471B97F4E700540DFF /* DldIOServiceTree.h */,
+				F90DCE481B97F4E700540DFF /* DldIOShadow.cpp */,
+				F90DCE491B97F4E700540DFF /* DldIOShadow.h */,
+				F90DCE4A1B97F4E700540DFF /* DldIOShadowFile.cpp */,
+				F90DCE4B1B97F4E700540DFF /* DldIOShadowFile.h */,
+				F90DCE4C1B97F4E700540DFF /* DldIOUSBControllerV3.cpp */,
+				F90DCE4D1B97F4E700540DFF /* DldIOUSBControllerV3.h */,
+				F90DCE4E1B97F4E700540DFF /* DldIOUserClient.cpp */,
+				F90DCE4F1B97F4E700540DFF /* DldIOUserClient.h */,
+				F90DCE501B97F4E700540DFF /* DldIOUserClientRef.h */,
+				F90DCE511B97F4E700540DFF /* DldIOVnode.cpp */,
+				F90DCE521B97F4E700540DFF /* DldIOVnode.h */,
+				F90DCE531B97F4E700540DFF /* DldIPCUserClient.cpp */,
+				F90DCE541B97F4E700540DFF /* DldIPCUserClient.h */,
+				F90DCE551B97F4E700540DFF /* DldKauthCredArray.cpp */,
+				F90DCE561B97F4E700540DFF /* DldKauthCredArray.h */,
+				F90DCE571B97F4E700540DFF /* DldKauthCredEntry.cpp */,
+				F90DCE581B97F4E700540DFF /* DldKauthCredEntry.h */,
+				F90DCE591B97F4E700540DFF /* DldKAuthVnodeGate.cpp */,
+				F90DCE5A1B97F4E700540DFF /* DldKAuthVnodeGate.h */,
+				F90DCE5B1B97F4E700540DFF /* DldKernAuthorization.cpp */,
+				F90DCE5C1B97F4E700540DFF /* DldKernAuthorization.h */,
+				F90DCE5D1B97F4E700540DFF /* DldKernelToUserEvents.cpp */,
+				F90DCE5E1B97F4E700540DFF /* DldKernelToUserEvents.h */,
+				F90DCE5F1B97F4E700540DFF /* DldMachO.cpp */,
+				F90DCE601B97F4E700540DFF /* DldMachO.h */,
+				F90DCE611B97F4E700540DFF /* DldMacPolicy.cpp */,
+				F90DCE621B97F4E700540DFF /* DldMacPolicy.h */,
+				F90DCE631B97F4E700540DFF /* DldMsToMacTypes.h */,
+				F90DCE641B97F4E700540DFF /* DldNetworkInterfaceFilter.cpp */,
+				F90DCE651B97F4E700540DFF /* DldNetworkInterfaceFilter.h */,
+				F90DCE661B97F4E700540DFF /* DldObjectProperty.cpp */,
+				F90DCE671B97F4E700540DFF /* DldObjectProperty.h */,
+				F90DCE681B97F4E700540DFF /* DldPowerManagement.cpp */,
+				F90DCE691B97F4E700540DFF /* DldPowerManagement.h */,
+				F90DCE6A1B97F4E700540DFF /* DldProtectedFile.cpp */,
+				F90DCE6B1B97F4E700540DFF /* DldProtectedFile.h */,
+				F90DCE6C1B97F4E700540DFF /* DldProtectedProcess.cpp */,
+				F90DCE6D1B97F4E700540DFF /* DldProtectedProcess.h */,
+				F90DCE951B97F4E700540DFF /* DldSCSITask.cpp */,
+				F90DCE961B97F4E700540DFF /* DldSCSITask.h */,
+				F90DCE971B97F4E700540DFF /* DldServiceProtection.cpp */,
+				F90DCE981B97F4E700540DFF /* DldServiceProtection.h */,
+				F90DCE991B97F4E700540DFF /* DldSparseFile.cpp */,
+				F90DCE9A1B97F4E700540DFF /* DldSparseFile.h */,
+				F90DCE9B1B97F4E700540DFF /* DldSupportingCode.cpp */,
+				F90DCE9C1B97F4E700540DFF /* DldSupportingCode.h */,
+				F90DCE9D1B97F4E700540DFF /* DldUndocumentedQuirks.cpp */,
+				F90DCE9E1B97F4E700540DFF /* DldUndocumentedQuirks.h */,
+				F90DCE9F1B97F4E700540DFF /* DldUserToKernel.h */,
+				F90DCEA01B97F4E700540DFF /* DldVfsMntHook.cpp */,
+				F90DCEA11B97F4E700540DFF /* DldVfsMntHook.h */,
+				F90DCEA21B97F4E700540DFF /* DldVmPmap.cpp */,
+				F90DCEA31B97F4E700540DFF /* DldVmPmap.h */,
+				F90DCEA41B97F4E800540DFF /* DldVnodeHashTable.cpp */,
+				F90DCEA51B97F4E800540DFF /* DldVnodeHashTable.h */,
+				F90DCEA61B97F4E800540DFF /* DldVNodeHook.cpp */,
+				F90DCEA71B97F4E800540DFF /* DldVNodeHook.h */,
+				F90DCEA81B97F4E800540DFF /* DldWhiteList.cpp */,
+				F90DCEA91B97F4E800540DFF /* DldWhiteList.h */,
+				F90DCEAC1B97F4E800540DFF /* IOBlockStorageDriverDldHook.cpp */,
+				F90DCEAD1B97F4E800540DFF /* IOBlockStorageDriverDldHook.h */,
+				F90DCEAE1B97F4E800540DFF /* IOBlockStorageServicesDldHook.cpp */,
+				F90DCEAF1B97F4E800540DFF /* IOBlockStorageServicesDldHook.h */,
+				F90DCEB01B97F4E800540DFF /* IOBSDSystem.cpp */,
+				F90DCEB11B97F4E800540DFF /* IOBSDSystem.h */,
+				F90DCEB21B97F4E800540DFF /* IOFDiskPartitionSchemeDldHook.cpp */,
+				F90DCEB31B97F4E800540DFF /* IOFDiskPartitionSchemeDldHook.h */,
+				F90DCEB41B97F4E800540DFF /* IOHIDSystemDldHook.cpp */,
+				F90DCEB51B97F4E800540DFF /* IOHIDSystemDldHook.h */,
+				F90DCEB61B97F4E800540DFF /* IOMediaBSDClientDldHook.cpp */,
+				F90DCEB71B97F4E800540DFF /* IOMediaBSDClientDldHook.h */,
+				F90DCEB81B97F4E800540DFF /* IOMediaDldHook.cpp */,
+				F90DCEB91B97F4E800540DFF /* IOMediaDldHook.h */,
+				F90DCEBA1B97F4E800540DFF /* IOSCSIPeripheralDeviceNubDldHook.cpp */,
+				F90DCEBB1B97F4E800540DFF /* IOSCSIPeripheralDeviceNubDldHook.h */,
+				F90DCEBC1B97F4E800540DFF /* IOSCSIPeripheralDeviceType05DldHook.cpp */,
+				F90DCEBD1B97F4E800540DFF /* IOSCSIPeripheralDeviceType05DldHook.h */,
+				F90DCEBE1B97F4E800540DFF /* IOSerialStreamSyncDldHook.cpp */,
+				F90DCEBF1B97F4E800540DFF /* IOSerialStreamSyncDldHook.h */,
+				F90DCEC01B97F4E800540DFF /* IOServiceDldHook.cpp */,
+				F90DCEC11B97F4E800540DFF /* IOServiceDldHook.h */,
+				F90DCEC21B97F4E800540DFF /* IOUSBCompositeDriverDldHook.cpp */,
+				F90DCEC31B97F4E800540DFF /* IOUSBCompositeDriverDldHook.h */,
+				F90DCEC41B97F4E800540DFF /* IOUSBDeviceDldHook.cpp */,
+				F90DCEC51B97F4E800540DFF /* IOUSBDeviceDldHook.h */,
+				F90DCEC61B97F4E800540DFF /* IOUSBInterfaceDldHook.cpp */,
+				F90DCEC71B97F4E800540DFF /* IOUSBInterfaceDldHook.h */,
+				F90DCEC81B97F4E800540DFF /* IOUSBMassStorageClassDldHook.cpp */,
+				F90DCEC91B97F4E800540DFF /* IOUSBMassStorageClassDldHook.h */,
+				F90DCFAD1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.cpp */,
+				F90DCFAE1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.h */,
+				F90DCECC1B97F4E800540DFF /* IOUserClientDldHook.cpp */,
+				F90DCECD1B97F4E800540DFF /* IOUserClientDldHook.h */,
+				F90DCECE1B97F4E800540DFF /* iso9660.h */,
+				F90DCECF1B97F4E800540DFF /* iso13346.h */,
+				F90DCED01B97F4E800540DFF /* md5_hash.c */,
+				F90DCED11B97F4E800540DFF /* md5_hash.h */,
+				F90DCED21B97F4E800540DFF /* NKE */,
+				F90DCED91B97F4E800540DFF /* nlist.h */,
+				F90DCEDA1B97F4E800540DFF /* udf.h */,
+			);
+			path = DLDriver;
+			sourceTree = "<group>";
+		};
+		F90DCE031B97F4E700540DFF /* distorm */ = {
+			isa = PBXGroup;
+			children = (
+				F90DCE041B97F4E700540DFF /* distorm3 */,
+			);
+			name = distorm;
+			path = ../../distorm;
+			sourceTree = "<group>";
+		};
+		F90DCE041B97F4E700540DFF /* distorm3 */ = {
+			isa = PBXGroup;
+			children = (
+				F90DCE051B97F4E700540DFF /* include */,
+				F90DCE081B97F4E700540DFF /* src */,
+			);
+			path = distorm3;
+			sourceTree = "<group>";
+		};
+		F90DCE051B97F4E700540DFF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F90DCE061B97F4E700540DFF /* distorm.h */,
+				F90DCE071B97F4E700540DFF /* mnemonics.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F90DCE081B97F4E700540DFF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F90DCE091B97F4E700540DFF /* config.h */,
+				F90DCE0A1B97F4E700540DFF /* decoder.c */,
+				F90DCE0B1B97F4E700540DFF /* decoder.h */,
+				F90DCE0C1B97F4E700540DFF /* distorm.c */,
+				F90DCE0D1B97F4E700540DFF /* instructions.c */,
+				F90DCE0E1B97F4E700540DFF /* instructions.h */,
+				F90DCE0F1B97F4E700540DFF /* insts.c */,
+				F90DCE101B97F4E700540DFF /* insts.h */,
+				F90DCE111B97F4E700540DFF /* mnemonics.c */,
+				F90DCE121B97F4E700540DFF /* operands.c */,
+				F90DCE131B97F4E700540DFF /* operands.h */,
+				F90DCE141B97F4E700540DFF /* prefix.c */,
+				F90DCE151B97F4E700540DFF /* prefix.h */,
+				F90DCE161B97F4E700540DFF /* textdefs.c */,
+				F90DCE171B97F4E700540DFF /* textdefs.h */,
+				F90DCE181B97F4E700540DFF /* wstring.c */,
+				F90DCE191B97F4E700540DFF /* wstring.h */,
+				F90DCE1A1B97F4E700540DFF /* x86defs.c */,
+				F90DCE1B1B97F4E700540DFF /* x86defs.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		F90DCED21B97F4E800540DFF /* NKE */ = {
+			isa = PBXGroup;
+			children = (
+				F90DCED31B97F4E800540DFF /* DldDataBuffer.cpp */,
+				F90DCED41B97F4E800540DFF /* DldDataBuffer.h */,
+				F90DCED51B97F4E800540DFF /* DldSocketFilter.cpp */,
+				F90DCED61B97F4E800540DFF /* DldSocketFilter.h */,
+				F90DCED71B97F4E800540DFF /* DldSocketObject.cpp */,
+				F90DCED81B97F4E800540DFF /* DldSocketObject.h */,
+			);
+			name = NKE;
+			path = ../../NKE;
+			sourceTree = "<group>";
+		};
+		F90DCFA21B97F68200540DFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F90DCFA71B97F86F00540DFF /* DLDriver-Info.plist */,
+				F90DCFA81B97F86F00540DFF /* DLDriver-Info109.plist */,
+				F90DCFA91B97F86F00540DFF /* DLDriver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F90DCDE31B97F45F00540DFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90DCF5E1B97F4E800540DFF /* DldSCSITask.h in Headers */,
+				F90DCF791B97F4E800540DFF /* IOBSDSystem.h in Headers */,
+				F90DCEF11B97F4E800540DFF /* prefix.h in Headers */,
+				F90DCF271B97F4E800540DFF /* DldIOShadowFile.h in Headers */,
+				F90DCF0F1B97F4E800540DFF /* DldInternalLog.h in Headers */,
+				F90DCF291B97F4E800540DFF /* DldIOUSBControllerV3.h in Headers */,
+				F90DCF491B97F4E800540DFF /* DldProtectedProcess.h in Headers */,
+				F90DCF191B97F4E800540DFF /* DldIORegistryEntry.h in Headers */,
+				F90DCF711B97F4E800540DFF /* DldWhiteList.h in Headers */,
+				F90DCEEA1B97F4E800540DFF /* instructions.h in Headers */,
+				F90DCF051B97F4E800540DFF /* DldDVDWhiteList.h in Headers */,
+				F90DCF2B1B97F4E800540DFF /* DldIOUserClient.h in Headers */,
+				F90DCEEF1B97F4E800540DFF /* operands.h in Headers */,
+				F90DCF6F1B97F4E800540DFF /* DldVNodeHook.h in Headers */,
+				F90DCF111B97F4E800540DFF /* DldIODataQueue.h in Headers */,
+				F90DCEE41B97F4E800540DFF /* mnemonics.h in Headers */,
+				F90DCEE31B97F4E800540DFF /* distorm.h in Headers */,
+				F90DCF691B97F4E800540DFF /* DldVfsMntHook.h in Headers */,
+				F90DCF601B97F4E800540DFF /* DldServiceProtection.h in Headers */,
+				F90DCFAC1B97F86F00540DFF /* DLDriver-Prefix.pch in Headers */,
+				F90DCF811B97F4E800540DFF /* IOMediaDldHook.h in Headers */,
+				F90DCEF31B97F4E800540DFF /* textdefs.h in Headers */,
+				F90DCF3F1B97F4E800540DFF /* DldMsToMacTypes.h in Headers */,
+				F90DCF091B97F4E800540DFF /* DldFakeFSD.h in Headers */,
+				F90DCF7B1B97F4E800540DFF /* IOFDiskPartitionSchemeDldHook.h in Headers */,
+				F90DCF341B97F4E800540DFF /* DldKauthCredEntry.h in Headers */,
+				F90DCF851B97F4E800540DFF /* IOSCSIPeripheralDeviceType05DldHook.h in Headers */,
+				F90DCF131B97F4E800540DFF /* DldIOKitHookDictionaryEntry.h in Headers */,
+				F90DCF9B1B97F4E800540DFF /* DldDataBuffer.h in Headers */,
+				F90DCF321B97F4E800540DFF /* DldKauthCredArray.h in Headers */,
+				F90DCEFD1B97F4E800540DFF /* DldCommon.h in Headers */,
+				F90DCF031B97F4E800540DFF /* DldDiskCAWL.h in Headers */,
+				F90DCEFF1B97F4E800540DFF /* DldCommonHashTable.h in Headers */,
+				F90DCF6D1B97F4E800540DFF /* DldVnodeHashTable.h in Headers */,
+				F90DCF171B97F4E800540DFF /* DldIOLog.h in Headers */,
+				F90DCF431B97F4E800540DFF /* DldObjectProperty.h in Headers */,
+				F90DCF971B97F4E800540DFF /* iso13346.h in Headers */,
+				F90DCF0D1B97F4E800540DFF /* DldHookerCommonClass2.h in Headers */,
+				F90DCF211B97F4E800540DFF /* DldIOService.h in Headers */,
+				F90DCF361B97F4E800540DFF /* DldKAuthVnodeGate.h in Headers */,
+				F90DCFA01B97F4E800540DFF /* nlist.h in Headers */,
+				F90DCF831B97F4E800540DFF /* IOSCSIPeripheralDeviceNubDldHook.h in Headers */,
+				F90DCF3C1B97F4E800540DFF /* DldMachO.h in Headers */,
+				F90DCEE21B97F4E800540DFF /* DeviceLockIPCDriver.h in Headers */,
+				F90DCEF71B97F4E800540DFF /* x86defs.h in Headers */,
+				F90DCF8F1B97F4E800540DFF /* IOUSBInterfaceDldHook.h in Headers */,
+				F90DCF951B97F4E800540DFF /* IOUserClientDldHook.h in Headers */,
+				F90DCEE01B97F4E800540DFF /* DeviceLockIOKitDriver.h in Headers */,
+				F90DCEFC1B97F4E800540DFF /* DldBackingFile.h in Headers */,
+				F90DCF0B1B97F4E800540DFF /* DldHookerCommonClass.h in Headers */,
+				F90DCEDC1B97F4E800540DFF /* AppleUSBEHCIDldHook.h in Headers */,
+				F90DCF9F1B97F4E800540DFF /* DldSocketObject.h in Headers */,
+				F90DCEEC1B97F4E800540DFF /* insts.h in Headers */,
+				F90DCF621B97F4E800540DFF /* DldSparseFile.h in Headers */,
+				F90DCEE71B97F4E800540DFF /* decoder.h in Headers */,
+				F90DCF1D1B97F4E800540DFF /* DldIOSCSIPrimaryCommandsDevice.h in Headers */,
+				F90DCF3A1B97F4E800540DFF /* DldKernelToUserEvents.h in Headers */,
+				F90DCEFA1B97F4E800540DFF /* DldAclWithProcsObject.h in Headers */,
+				F90DCF771B97F4E800540DFF /* IOBlockStorageServicesDldHook.h in Headers */,
+				F90DCF641B97F4E800540DFF /* DldSupportingCode.h in Headers */,
+				F90DCF661B97F4E800540DFF /* DldUndocumentedQuirks.h in Headers */,
+				F90DCF671B97F4E800540DFF /* DldUserToKernel.h in Headers */,
+				F90DCF871B97F4E800540DFF /* IOSerialStreamSyncDldHook.h in Headers */,
+				F90DCF6B1B97F4E800540DFF /* DldVmPmap.h in Headers */,
+				F90DCF381B97F4E800540DFF /* DldKernAuthorization.h in Headers */,
+				F90DCF891B97F4E800540DFF /* IOServiceDldHook.h in Headers */,
+				F90DCEDE1B97F4E800540DFF /* AppleUSBOHCIDldHook.h in Headers */,
+				F90DCF231B97F4E800540DFF /* DldIOServiceTree.h in Headers */,
+				F90DCF751B97F4E800540DFF /* IOBlockStorageDriverDldHook.h in Headers */,
+				F90DCF071B97F4E800540DFF /* DldEncryptionProviders.h in Headers */,
+				F90DCF011B97F4E800540DFF /* DldCoveringVnode.h in Headers */,
+				F90DCF7F1B97F4E800540DFF /* IOMediaBSDClientDldHook.h in Headers */,
+				F90DCFA11B97F4E800540DFF /* udf.h in Headers */,
+				F90DCF8D1B97F4E800540DFF /* IOUSBDeviceDldHook.h in Headers */,
+				F90DCF411B97F4E800540DFF /* DldNetworkInterfaceFilter.h in Headers */,
+				F90DCF961B97F4E800540DFF /* iso9660.h in Headers */,
+				F90DCF911B97F4E800540DFF /* IOUSBMassStorageClassDldHook.h in Headers */,
+				F90DCF151B97F4E800540DFF /* DldIOKitHookEngine.h in Headers */,
+				F90DCF991B97F4E800540DFF /* md5_hash.h in Headers */,
+				F90DCF1F1B97F4E800540DFF /* DldIOSCSIProtocolInterface.h in Headers */,
+				F90DCF2C1B97F4E800540DFF /* DldIOUserClientRef.h in Headers */,
+				F90DCEE51B97F4E800540DFF /* config.h in Headers */,
+				F90DCF451B97F4E800540DFF /* DldPowerManagement.h in Headers */,
+				F90DCF7D1B97F4E800540DFF /* IOHIDSystemDldHook.h in Headers */,
+				F90DCF471B97F4E800540DFF /* DldProtectedFile.h in Headers */,
+				F90DCF3E1B97F4E800540DFF /* DldMacPolicy.h in Headers */,
+				F90DCF301B97F4E800540DFF /* DldIPCUserClient.h in Headers */,
+				F90DCEF51B97F4E800540DFF /* wstring.h in Headers */,
+				F90DCF1B1B97F4E800540DFF /* DldIOSCSIMultimediaCommandsDevice.h in Headers */,
+				F90DCF251B97F4E800540DFF /* DldIOShadow.h in Headers */,
+				F90DCF8B1B97F4E800540DFF /* IOUSBCompositeDriverDldHook.h in Headers */,
+				F90DCFB01B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.h in Headers */,
+				F90DCF2E1B97F4E800540DFF /* DldIOVnode.h in Headers */,
+				F90DCF9D1B97F4E800540DFF /* DldSocketFilter.h in Headers */,
+				F90DCEF81B97F4E800540DFF /* DldAclObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F90DCDE61B97F45F00540DFF /* DLDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90DCDF81B97F45F00540DFF /* Build configuration list for PBXNativeTarget "DLDriver" */;
+			buildPhases = (
+				F90DCDE11B97F45F00540DFF /* Sources */,
+				F90DCDE21B97F45F00540DFF /* Frameworks */,
+				F90DCDE31B97F45F00540DFF /* Headers */,
+				F90DCDE41B97F45F00540DFF /* Resources */,
+				F90DCDE51B97F45F00540DFF /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLDriver;
+			productName = DLDriver;
+			productReference = F90DCDE71B97F45F00540DFF /* DLDriver.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F90DCDDD1B97F45F00540DFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Slava Imameev";
+			};
+			buildConfigurationList = F90DCDE01B97F45F00540DFF /* Build configuration list for PBXProject "DLDriver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F90DCDDC1B97F45F00540DFF;
+			productRefGroup = F90DCDE81B97F45F00540DFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F90DCDE61B97F45F00540DFF /* DLDriver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F90DCDE41B97F45F00540DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90DCFAA1B97F86F00540DFF /* DLDriver-Info.plist in Resources */,
+				F90DCFAB1B97F86F00540DFF /* DLDriver-Info109.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F90DCDE51B97F45F00540DFF /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F90DCDE11B97F45F00540DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90DCF9E1B97F4E800540DFF /* DldSocketObject.cpp in Sources */,
+				F90DCEFE1B97F4E800540DFF /* DldCommonHashTable.cpp in Sources */,
+				F90DCFAF1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.cpp in Sources */,
+				F90DCF8A1B97F4E800540DFF /* IOUSBCompositeDriverDldHook.cpp in Sources */,
+				F90DCF7E1B97F4E800540DFF /* IOMediaBSDClientDldHook.cpp in Sources */,
+				F90DCEED1B97F4E800540DFF /* mnemonics.c in Sources */,
+				F90DCF001B97F4E800540DFF /* DldCoveringVnode.cpp in Sources */,
+				F90DCF461B97F4E800540DFF /* DldProtectedFile.cpp in Sources */,
+				F90DCF9A1B97F4E800540DFF /* DldDataBuffer.cpp in Sources */,
+				F90DCF061B97F4E800540DFF /* DldEncryptionProviders.cpp in Sources */,
+				F90DCF351B97F4E800540DFF /* DldKAuthVnodeGate.cpp in Sources */,
+				F90DCF9C1B97F4E800540DFF /* DldSocketFilter.cpp in Sources */,
+				F90DCF981B97F4E800540DFF /* md5_hash.c in Sources */,
+				F90DCF651B97F4E800540DFF /* DldUndocumentedQuirks.cpp in Sources */,
+				F90DCF6C1B97F4E800540DFF /* DldVnodeHashTable.cpp in Sources */,
+				F90DCF781B97F4E800540DFF /* IOBSDSystem.cpp in Sources */,
+				F90DCEE61B97F4E800540DFF /* decoder.c in Sources */,
+				F90DCF3D1B97F4E800540DFF /* DldMacPolicy.cpp in Sources */,
+				F90DCF081B97F4E800540DFF /* DldFakeFSD.cpp in Sources */,
+				F90DCF901B97F4E800540DFF /* IOUSBMassStorageClassDldHook.cpp in Sources */,
+				F90DCF681B97F4E800540DFF /* DldVfsMntHook.cpp in Sources */,
+				F90DCF761B97F4E800540DFF /* IOBlockStorageServicesDldHook.cpp in Sources */,
+				F90DCF141B97F4E800540DFF /* DldIOKitHookEngine.cpp in Sources */,
+				F90DCEF61B97F4E800540DFF /* x86defs.c in Sources */,
+				F90DCEEB1B97F4E800540DFF /* insts.c in Sources */,
+				F90DCF101B97F4E800540DFF /* DldIODataQueue.cpp in Sources */,
+				F90DCF241B97F4E800540DFF /* DldIOShadow.cpp in Sources */,
+				F90DCF221B97F4E800540DFF /* DldIOServiceTree.cpp in Sources */,
+				F90DCF0A1B97F4E800540DFF /* DldHookerCommonClass.cpp in Sources */,
+				F90DCF371B97F4E800540DFF /* DldKernAuthorization.cpp in Sources */,
+				F90DCEDD1B97F4E800540DFF /* AppleUSBOHCIDldHook.cpp in Sources */,
+				F90DCF701B97F4E800540DFF /* DldWhiteList.cpp in Sources */,
+				F90DCEE91B97F4E800540DFF /* instructions.c in Sources */,
+				F90DCEFB1B97F4E800540DFF /* DldBackingFile.cpp in Sources */,
+				F90DCF401B97F4E800540DFF /* DldNetworkInterfaceFilter.cpp in Sources */,
+				F90DCF441B97F4E800540DFF /* DldPowerManagement.cpp in Sources */,
+				F90DCEF41B97F4E800540DFF /* wstring.c in Sources */,
+				F90DCF2F1B97F4E800540DFF /* DldIPCUserClient.cpp in Sources */,
+				F90DCEF91B97F4E800540DFF /* DldAclWithProcsObject.cpp in Sources */,
+				F90DCF941B97F4E800540DFF /* IOUserClientDldHook.cpp in Sources */,
+				F90DCF1A1B97F4E800540DFF /* DldIOSCSIMultimediaCommandsDevice.cpp in Sources */,
+				F90DCEEE1B97F4E800540DFF /* operands.c in Sources */,
+				F90DCF161B97F4E800540DFF /* DldIOLog.cpp in Sources */,
+				F90DCF1C1B97F4E800540DFF /* DldIOSCSIPrimaryCommandsDevice.cpp in Sources */,
+				F90DCF6A1B97F4E800540DFF /* DldVmPmap.cpp in Sources */,
+				F90DCF8C1B97F4E800540DFF /* IOUSBDeviceDldHook.cpp in Sources */,
+				F90DCF0E1B97F4E800540DFF /* DldInternalLog.cpp in Sources */,
+				F90DCF481B97F4E800540DFF /* DldProtectedProcess.cpp in Sources */,
+				F90DCF861B97F4E800540DFF /* IOSerialStreamSyncDldHook.cpp in Sources */,
+				F90DCF2A1B97F4E800540DFF /* DldIOUserClient.cpp in Sources */,
+				F90DCEF21B97F4E800540DFF /* textdefs.c in Sources */,
+				F90DCEE11B97F4E800540DFF /* DeviceLockIPCDriver.cpp in Sources */,
+				F90DCF8E1B97F4E800540DFF /* IOUSBInterfaceDldHook.cpp in Sources */,
+				F90DCF841B97F4E800540DFF /* IOSCSIPeripheralDeviceType05DldHook.cpp in Sources */,
+				F90DCEDF1B97F4E800540DFF /* DeviceLockIOKitDriver.cpp in Sources */,
+				F90DCF041B97F4E800540DFF /* DldDVDWhiteList.cpp in Sources */,
+				F90DCF1E1B97F4E800540DFF /* DldIOSCSIProtocolInterface.cpp in Sources */,
+				F90DCEE81B97F4E800540DFF /* distorm.c in Sources */,
+				F90DCF801B97F4E800540DFF /* IOMediaDldHook.cpp in Sources */,
+				F90DCEDB1B97F4E800540DFF /* AppleUSBEHCIDldHook.cpp in Sources */,
+				F90DCF021B97F4E800540DFF /* DldDiskCAWL.cpp in Sources */,
+				F90DCF881B97F4E800540DFF /* IOServiceDldHook.cpp in Sources */,
+				F90DCF261B97F4E800540DFF /* DldIOShadowFile.cpp in Sources */,
+				F90DCF3B1B97F4E800540DFF /* DldMachO.cpp in Sources */,
+				F90DCEF01B97F4E800540DFF /* prefix.c in Sources */,
+				F90DCF201B97F4E800540DFF /* DldIOService.cpp in Sources */,
+				F90DCF821B97F4E800540DFF /* IOSCSIPeripheralDeviceNubDldHook.cpp in Sources */,
+				F90DCF611B97F4E800540DFF /* DldSparseFile.cpp in Sources */,
+				F90DCF0C1B97F4E800540DFF /* DldHookerCommonClass2.cpp in Sources */,
+				F90DCF5D1B97F4E800540DFF /* DldSCSITask.cpp in Sources */,
+				F90DCF181B97F4E800540DFF /* DldIORegistryEntry.cpp in Sources */,
+				F90DCF391B97F4E800540DFF /* DldKernelToUserEvents.cpp in Sources */,
+				F90DCF631B97F4E800540DFF /* DldSupportingCode.cpp in Sources */,
+				F90DCF6E1B97F4E800540DFF /* DldVNodeHook.cpp in Sources */,
+				F90DCF281B97F4E800540DFF /* DldIOUSBControllerV3.cpp in Sources */,
+				F90DCF741B97F4E800540DFF /* IOBlockStorageDriverDldHook.cpp in Sources */,
+				F90DCF331B97F4E800540DFF /* DldKauthCredEntry.cpp in Sources */,
+				F90DCF121B97F4E800540DFF /* DldIOKitHookDictionaryEntry.cpp in Sources */,
+				F90DCF7C1B97F4E800540DFF /* IOHIDSystemDldHook.cpp in Sources */,
+				F90DCF5F1B97F4E800540DFF /* DldServiceProtection.cpp in Sources */,
+				F90DCF311B97F4E800540DFF /* DldKauthCredArray.cpp in Sources */,
+				F90DCF421B97F4E800540DFF /* DldObjectProperty.cpp in Sources */,
+				F90DCF7A1B97F4E800540DFF /* IOFDiskPartitionSchemeDldHook.cpp in Sources */,
+				F90DCF2D1B97F4E800540DFF /* DldIOVnode.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F90DCDF61B97F45F00540DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F90DCDF71B97F45F00540DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F90DCDF91B97F45F00540DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DLDriver/DLDriver-Prefix.pch";
+				INFOPLIST_FILE = "DLDriver/DLDriver-Info109.plist";
+				MODULE_NAME = "Slava Imameev.DLDriver";
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		F90DCDFA1B97F45F00540DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DLDriver/DLDriver-Prefix.pch";
+				INFOPLIST_FILE = "DLDriver/DLDriver-Info109.plist";
+				MODULE_NAME = "Slava Imameev.DLDriver";
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F90DCDE01B97F45F00540DFF /* Build configuration list for PBXProject "DLDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90DCDF61B97F45F00540DFF /* Debug */,
+				F90DCDF71B97F45F00540DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90DCDF81B97F45F00540DFF /* Build configuration list for PBXNativeTarget "DLDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90DCDF91B97F45F00540DFF /* Debug */,
+				F90DCDFA1B97F45F00540DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F90DCDDD1B97F45F00540DFF /* Project object */;
+}

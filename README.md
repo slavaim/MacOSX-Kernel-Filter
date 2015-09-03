@@ -5,6 +5,7 @@ The driver allows to intercept requests to any internal or external device ( USB
 The driver allows to change data read or written from/to external devices.  
 The driver allows to intercept network trafic, collect it in the user mode, change it and reinject in the network.  
 The driver can protect itself and selected user mode processes even from users with root privilege ( to a certain degree, depending on attackers skills ).  
+The driver doesn't require to be loaded on boot, the special techniques used in the driver allows it to be loaded anytime and control devices started before it was loaded.
 
 You can use the code and compiled driver for educational purposses. The commercial usage or code/binary distribution is not allowed.  
 The driver was developed in 2009-2012 and tested up to Mac OS X Mavericks.

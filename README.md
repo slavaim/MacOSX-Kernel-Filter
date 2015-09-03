@@ -1,6 +1,6 @@
 # MacKernelFilter
 
-The project contains a kernel mode driver for Mac OS X , aka kernel extension ( kext ).  
+The project contains a kernel mode driver filter for Mac OS X , aka kernel extension ( kext ).  
 The driver allows to intercept requests to any internal or external device ( USB, FireWire, PCI, Thunderbolt, Bluetooth, WiFi ), allow or disable requests based on user credentials and device type, perform collection of data sent to external storage devices.  
 The driver allows to change data read or written from/to external storages.  
 The driver allows to intercept network trafic, collect it in the user mode, change it and reinject in the network.  

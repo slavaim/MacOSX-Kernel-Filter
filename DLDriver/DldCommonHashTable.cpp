@@ -1,7 +1,9 @@
 /*
  based on Simon Kagstrom's C hash table implementation
  Copyright (C) 2001-2005,  Simon Kagstrom
- Copyright (C) 2010,  Slava Imameev - porting to Mac OS X kernel
+ 
+ Changes history:
+ 2010,  Slava Imameev - porting to Mac OS X kernel
  */
 
 #include "DldCommonHashTable.h"

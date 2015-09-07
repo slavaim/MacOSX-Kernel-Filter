@@ -12,7 +12,7 @@ You can use the code and compiled driver for educational purposses. The commerci
 The driver was developed in 2009-2013 and tested on Mac OS X Snow Leopard, Mac OS X Lion, Mac OS X Mountain Lion, Mac OS X Mavericks, Mac OS X Yosemite.  
 The project requires XCode 5.
 
-You can contact the author via his blog http://modpager.blogspot.com.au or facebook https://www.facebook.com/profile.php?id=100010119092130 or linkedin https://www.linkedin.com/profile/view?id=6575657  
+If you have any question you can contact the author via his blog http://modpager.blogspot.com.au or facebook https://www.facebook.com/profile.php?id=100010119092130 or linkedin https://www.linkedin.com/profile/view?id=6575657  
 
 Slava Imameev  
 Sydney  

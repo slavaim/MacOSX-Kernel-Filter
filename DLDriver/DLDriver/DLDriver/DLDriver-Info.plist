@@ -13,7 +13,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>${DL_DRIVER_ID}${DL_DRIVER_NAME_SUFFIX}</string>
+	<string>SlavaImameev.devicelock.agent.driver</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
@@ -21,9 +21,9 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>${DL_PRODUCT_VERSION}</string>
+	<string>1.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>${DL_PRODUCT_VERSION}</string>
+	<string>1.0</string>
 	<key>CFBundleGetInfoString</key>
 	<string>${PRODUCT_NAME} (${DL_PRODUCT_TITLE}) ${DL_PRODUCT_VERSION}.${DL_PRODUCT_REVISION}</string>
 	<key>NSHumanReadableCopyright</key>
@@ -87,8 +87,8 @@
 	</dict>
 	<key>OSBundleLibraries</key>
 	<dict>
-		<key>com.devicelock.agent.privatedriver</key>
-		<string>${DL_PRODUCT_VERSION}</string>
+		<key>SlavaImameev.devicelock.agent.privatedriver</key>
+		<string>1.0</string>
 		<key>com.apple.iokit.IOSCSIArchitectureModelFamily</key>
 		<string>2.1.1</string>
 		<key>com.apple.kpi.unsupported</key>

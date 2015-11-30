@@ -16,7 +16,7 @@ class DldIOServiceTreeEntry: public OSObject{
 public:
     
     static DldIOServiceTreeEntry* withIOService( __in IOService* serviceObject );
-    virtual bool CollectParentsInformation();
+    //virtual bool CollectParentsInformation();
     
 protected:
     

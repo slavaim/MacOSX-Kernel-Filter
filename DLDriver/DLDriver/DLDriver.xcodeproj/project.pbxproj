@@ -182,8 +182,6 @@
 		F90DCF9F1B97F4E800540DFF /* DldSocketObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCED81B97F4E800540DFF /* DldSocketObject.h */; };
 		F90DCFA01B97F4E800540DFF /* nlist.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCED91B97F4E800540DFF /* nlist.h */; };
 		F90DCFA11B97F4E800540DFF /* udf.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCEDA1B97F4E800540DFF /* udf.h */; };
-		F90DCFAA1B97F86F00540DFF /* DLDriver-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F90DCFA71B97F86F00540DFF /* DLDriver-Info.plist */; };
-		F90DCFAB1B97F86F00540DFF /* DLDriver-Info109.plist in Resources */ = {isa = PBXBuildFile; fileRef = F90DCFA81B97F86F00540DFF /* DLDriver-Info109.plist */; };
 		F90DCFAC1B97F86F00540DFF /* DLDriver-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F90DCFA91B97F86F00540DFF /* DLDriver-Prefix.pch */; };
 		F90DCFAF1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCFAD1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.cpp */; };
 		F90DCFB01B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCFAE1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.h */; };
@@ -369,7 +367,6 @@
 		F90DCED91B97F4E800540DFF /* nlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nlist.h; path = ../../nlist.h; sourceTree = "<group>"; };
 		F90DCEDA1B97F4E800540DFF /* udf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = udf.h; path = ../../udf.h; sourceTree = "<group>"; };
 		F90DCFA71B97F86F00540DFF /* DLDriver-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DLDriver-Info.plist"; sourceTree = "<group>"; };
-		F90DCFA81B97F86F00540DFF /* DLDriver-Info109.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DLDriver-Info109.plist"; sourceTree = "<group>"; };
 		F90DCFA91B97F86F00540DFF /* DLDriver-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DLDriver-Prefix.pch"; sourceTree = "<group>"; };
 		F90DCFAD1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOUSBMassStorageClassDldHook2.cpp; path = ../../IOUSBMassStorageClassDldHook2.cpp; sourceTree = "<group>"; };
 		F90DCFAE1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOUSBMassStorageClassDldHook2.h; path = ../../IOUSBMassStorageClassDldHook2.h; sourceTree = "<group>"; };
@@ -662,7 +659,6 @@
 			isa = PBXGroup;
 			children = (
 				F90DCFA71B97F86F00540DFF /* DLDriver-Info.plist */,
-				F90DCFA81B97F86F00540DFF /* DLDriver-Info109.plist */,
 				F90DCFA91B97F86F00540DFF /* DLDriver-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -869,8 +865,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F90DCFAA1B97F86F00540DFF /* DLDriver-Info.plist in Resources */,
-				F90DCFAB1B97F86F00540DFF /* DLDriver-Info109.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1096,7 +1090,7 @@
 				CURRENT_PROJECT_VERSION = 1.0.0d1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DLDriver/DLDriver-Prefix.pch";
-				INFOPLIST_FILE = "DLDriver/DLDriver-Info109.plist";
+				INFOPLIST_FILE = "DLDriver/DLDriver-Info.plist";
 				MODULE_NAME = "Slava Imameev.DLDriver";
 				MODULE_VERSION = 1.0.0d1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1111,7 +1105,7 @@
 				CURRENT_PROJECT_VERSION = 1.0.0d1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DLDriver/DLDriver-Prefix.pch";
-				INFOPLIST_FILE = "DLDriver/DLDriver-Info109.plist";
+				INFOPLIST_FILE = "DLDriver/DLDriver-Info.plist";
 				MODULE_NAME = "Slava Imameev.DLDriver";
 				MODULE_VERSION = 1.0.0d1;
 				PRODUCT_NAME = "$(TARGET_NAME)";

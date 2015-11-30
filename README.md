@@ -16,17 +16,17 @@ The driver uses a hooking technique to provide filtering functionality. The driv
 
 To load driver run the following commands, in my case the project's directory is /work/DL/GitHub/DLDriver
 
- sudo chown -R root:wheel /work/DL/GitHub/DLDriver/DLDriver/Build/Products/Release/DLDriver.kext
- sudo chown -R root:wheel /work/DL/GitHub/DLDriver/DLDriver/Build/Products/Release/DLDriverPrivate.kext
- sudo kextutil -v /work/DL/GitHub/DLDriver/DLDriver/Build/Products/Release/DLDriver.kext -d /work/DL/GitHub/DLDriver/DLDriver/Build/Products/Release/DLDriverPrivate.kext
+ $ sudo chown -R root:wheel /work/DL/GitHub/DLDriver/DLDriver/Build/Products/Release/DLDriver.kext  
+ $ sudo chown -R root:wheel /work/DL/GitHub/DLDriver/DLDriver/Build/Products/Release/DLDriverPrivate.kext  
+ $ sudo kextutil -v /work/DL/GitHub/DLDriver/DLDriver/Build/Products/Release/DLDriver.kext -d /work/DL/GitHub/DLDriver/DLDriver/Build/Products/Release/DLDriverPrivate.kext  
  
- To verify that the driver has loaded run
-  kextstat | grep SlavaImameev
+ To verify that the driver has loaded run  
+  $ kextstat | grep SlavaImameev  
   
-  the output should be like
+  the output should be like  
   
-  132    1 0xffffff8030ae5400 0xd0       0xd0       SlavaImameev.devicelock.agent.privatedriver (1.0)
-  133    0 0xffffff7f82265000 0xd8000    0xd8000    SlavaImameev.devicelock.agent.driver (1.0) <132 118 7 5 4 3 2 1>
+  132    1 0xffffff8030ae5400 0xd0       0xd0       SlavaImameev.devicelock.agent.privatedriver (1.0)  
+  133    0 0xffffff7f82265000 0xd8000    0xd8000    SlavaImameev.devicelock.agent.driver (1.0) <132 118 7 5 4 3 2 1>  
 
 Feel free to contact the author if you have any question. You can contact the author via his blog http://modpager.blogspot.com.au or facebook https://www.facebook.com/profile.php?id=100010119092130 or linkedin https://www.linkedin.com/profile/view?id=6575657  
 

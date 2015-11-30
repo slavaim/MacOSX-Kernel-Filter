@@ -79,7 +79,6 @@
 		F90DCF201B97F4E800540DFF /* DldIOService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE441B97F4E700540DFF /* DldIOService.cpp */; };
 		F90DCF211B97F4E800540DFF /* DldIOService.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE451B97F4E700540DFF /* DldIOService.h */; };
 		F90DCF221B97F4E800540DFF /* DldIOServiceTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE461B97F4E700540DFF /* DldIOServiceTree.cpp */; };
-		F90DCF231B97F4E800540DFF /* DldIOServiceTree.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE471B97F4E700540DFF /* DldIOServiceTree.h */; };
 		F90DCF241B97F4E800540DFF /* DldIOShadow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE481B97F4E700540DFF /* DldIOShadow.cpp */; };
 		F90DCF251B97F4E800540DFF /* DldIOShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = F90DCE491B97F4E700540DFF /* DldIOShadow.h */; };
 		F90DCF261B97F4E800540DFF /* DldIOShadowFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F90DCE4A1B97F4E700540DFF /* DldIOShadowFile.cpp */; };
@@ -374,10 +373,19 @@
 		F90DCFA91B97F86F00540DFF /* DLDriver-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DLDriver-Prefix.pch"; sourceTree = "<group>"; };
 		F90DCFAD1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOUSBMassStorageClassDldHook2.cpp; path = ../../IOUSBMassStorageClassDldHook2.cpp; sourceTree = "<group>"; };
 		F90DCFAE1B97FE7000540DFF /* IOUSBMassStorageClassDldHook2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOUSBMassStorageClassDldHook2.h; path = ../../IOUSBMassStorageClassDldHook2.h; sourceTree = "<group>"; };
+		F90FEAEA1BECDDB3002595FE /* DLDriverPrivate.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLDriverPrivate.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BAEF3A1C0BDF2F00A06668 /* DLDriverPrivate-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DLDriverPrivate-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F90DCDE21B97F45F00540DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90FEAE51BECDDB3002595FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,6 +399,7 @@
 			isa = PBXGroup;
 			children = (
 				F90DCDEC1B97F45F00540DFF /* DLDriver */,
+				F90FEAEB1BECDDB4002595FE /* DLDriverPrivate */,
 				F90DCDE91B97F45F00540DFF /* Frameworks */,
 				F90DCDE81B97F45F00540DFF /* Products */,
 			);
@@ -400,6 +409,7 @@
 			isa = PBXGroup;
 			children = (
 				F90DCDE71B97F45F00540DFF /* DLDriver.kext */,
+				F90FEAEA1BECDDB3002595FE /* DLDriverPrivate.kext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -658,6 +668,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F90FEAEB1BECDDB4002595FE /* DLDriverPrivate */ = {
+			isa = PBXGroup;
+			children = (
+				F90FEAEC1BECDDB4002595FE /* Supporting Files */,
+			);
+			path = DLDriverPrivate;
+			sourceTree = "<group>";
+		};
+		F90FEAEC1BECDDB4002595FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BAEF3A1C0BDF2F00A06668 /* DLDriverPrivate-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -732,7 +758,6 @@
 				F90DCF381B97F4E800540DFF /* DldKernAuthorization.h in Headers */,
 				F90DCF891B97F4E800540DFF /* IOServiceDldHook.h in Headers */,
 				F90DCEDE1B97F4E800540DFF /* AppleUSBOHCIDldHook.h in Headers */,
-				F90DCF231B97F4E800540DFF /* DldIOServiceTree.h in Headers */,
 				F90DCF751B97F4E800540DFF /* IOBlockStorageDriverDldHook.h in Headers */,
 				F90DCF071B97F4E800540DFF /* DldEncryptionProviders.h in Headers */,
 				F90DCF011B97F4E800540DFF /* DldCoveringVnode.h in Headers */,
@@ -763,6 +788,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F90FEAE61BECDDB3002595FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -783,6 +815,26 @@
 			name = DLDriver;
 			productName = DLDriver;
 			productReference = F90DCDE71B97F45F00540DFF /* DLDriver.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+		F90FEAE91BECDDB3002595FE /* DLDriverPrivate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90FEAF51BECDDB4002595FE /* Build configuration list for PBXNativeTarget "DLDriverPrivate" */;
+			buildPhases = (
+				F90FEAE41BECDDB3002595FE /* Sources */,
+				F90FEAE51BECDDB3002595FE /* Frameworks */,
+				F90FEAE61BECDDB3002595FE /* Headers */,
+				F90FEAE71BECDDB3002595FE /* Resources */,
+				F90FEAE81BECDDB3002595FE /* Rez */,
+				F90FEAF91BECDEC2002595FE /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLDriverPrivate;
+			productName = DLDriverPrivate;
+			productReference = F90FEAEA1BECDDB3002595FE /* DLDriverPrivate.kext */;
 			productType = "com.apple.product-type.kernel-extension";
 		};
 /* End PBXNativeTarget section */
@@ -807,6 +859,7 @@
 			projectRoot = "";
 			targets = (
 				F90DCDE61B97F45F00540DFF /* DLDriver */,
+				F90FEAE91BECDDB3002595FE /* DLDriverPrivate */,
 			);
 		};
 /* End PBXProject section */
@@ -821,6 +874,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F90FEAE71BECDDB3002595FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXRezBuildPhase section */
@@ -831,7 +891,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F90FEAE81BECDDB3002595FE /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F90FEAF91BECDEC2002595FE /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "EXPORTER_NAME=${EXECUTABLE_NAME}\nEXPORTER_OUT_DIR=${BUILT_PRODUCTS_DIR}/${EXECUTABLE_FOLDER_PATH}\nEXPORTER_TEMP_DIR=${TEMP_DIR}\nKEXTSYMBOLTOOL=DLDriverPrivate/bin/dl_kextsymboltool\n\nnm -gj /mach_kernel > \"${EXPORTER_TEMP_DIR}/allsymbols\"\n\n# kernel symbols that will be exported by this proxy driver\necho \"_mac_proc_set_enforce\" > \"${EXPORTER_TEMP_DIR}/${EXPORTER_NAME}.exports\"\necho \"_proc_iterate\" >> \"${EXPORTER_TEMP_DIR}/${EXPORTER_NAME}.exports\"\necho \"_proc_lock\" >> \"${EXPORTER_TEMP_DIR}/${EXPORTER_NAME}.exports\"\necho \"_proc_unlock\" >> \"${EXPORTER_TEMP_DIR}/${EXPORTER_NAME}.exports\"\n# include any more symbols needed.\n\n\"${KEXTSYMBOLTOOL}\" -arch i386 -import \"${EXPORTER_TEMP_DIR}/allsymbols\"  -export \"${EXPORTER_TEMP_DIR}/${EXPORTER_NAME}.exports\" -output \"${EXPORTER_TEMP_DIR}/${EXPORTER_NAME}_32\"\n\"${KEXTSYMBOLTOOL}\" -arch x86_64 -import \"${EXPORTER_TEMP_DIR}/allsymbols\" -export \"${EXPORTER_TEMP_DIR}/${EXPORTER_NAME}.exports\" -output \"${EXPORTER_TEMP_DIR}/${EXPORTER_NAME}_64\"\n\nmkdir -p \"${EXPORTER_OUT_DIR}\"\necho \"${EXPORTER_OUT_DIR}/${EXPORTER_NAME}\"\nlipo -create \"${EXPORTER_TEMP_DIR}/${EXPORTER_NAME}_32\" \"${EXPORTER_TEMP_DIR}/${EXPORTER_NAME}_64\" -output \"${EXPORTER_OUT_DIR}/${EXPORTER_NAME}\"\n\nrm \"${EXPORTER_TEMP_DIR}/${EXPORTER_NAME}.exports\"\nrm \"${EXPORTER_TEMP_DIR}/${EXPORTER_NAME}_32\"\nrm \"${EXPORTER_TEMP_DIR}/${EXPORTER_NAME}_64\"\nrm \"${EXPORTER_TEMP_DIR}/allsymbols\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F90DCDE11B97F45F00540DFF /* Sources */ = {
@@ -925,6 +1009,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F90FEAE41BECDDB3002595FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -962,7 +1053,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.9;
 			};
 			name = Debug;
 		};
@@ -994,7 +1085,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.9;
 			};
 			name = Release;
 		};
@@ -1028,6 +1119,40 @@
 			};
 			name = Release;
 		};
+		F90FEAF61BECDDB4002595FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DLDriverPrivate/DLDriverPrivate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DLDriverPrivate/DLDriverPrivate-Info.plist";
+				MODULE_NAME = "Slava-Imameev.DLDriverPrivate";
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		F90FEAF71BECDDB4002595FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DLDriverPrivate/DLDriverPrivate-Prefix.pch";
+				INFOPLIST_FILE = "DLDriverPrivate/DLDriverPrivate-Info.plist";
+				MODULE_NAME = "Slava-Imameev.DLDriverPrivate";
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1047,6 +1172,16 @@
 				F90DCDFA1B97F45F00540DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90FEAF51BECDDB4002595FE /* Build configuration list for PBXNativeTarget "DLDriverPrivate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90FEAF61BECDDB4002595FE /* Debug */,
+				F90FEAF71BECDDB4002595FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

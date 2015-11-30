@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>OSBundleAllowUserLoad</key>
+        <true/>
+        <key>OSKernelResource</key>
+        <true/>
+        <key>OSBundleCompatibleVersion</key>
+        <string>${DL_PRODUCT_VERSION}</string>
+        <key>OSBundleRequired</key>
+        <string>Safe Boot</string>
+        <key>CFBundleDevelopmentRegion</key>
+        <string>English</string>
+        <key>CFBundleExecutable</key>
+        <string>${EXECUTABLE_NAME}</string>
+        <key>CFBundleName</key>
+        <string>${PRODUCT_NAME}</string>
+        <key>CFBundleIconFile</key>
+        <string></string>
+        <key>CFBundleIdentifier</key>
+        <string>${DL_DRIVER_PRIVATE_ID}</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundlePackageType</key>
+        <string>KEXT</string>
+        <key>CFBundleSignature</key>
+        <string>????</string>
+        <key>CFBundleVersion</key>
+        <string>${DL_PRODUCT_VERSION}</string>
+        <key>CFBundleShortVersionString</key>
+        <string>${DL_PRODUCT_VERSION}</string>
+        <key>CFBundleGetInfoString</key>
+        <string>${PRODUCT_NAME} (${DL_PRODUCT_TITLE}) ${DL_PRODUCT_VERSION}.${DL_PRODUCT_REVISION}</string>
+        <key>NSHumanReadableCopyright</key>
+        <string>Copyright © 2015 Slava Imameev. All rights reserved.</string>
+    </dict>
+</plist>

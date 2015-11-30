@@ -1,6 +1,6 @@
 /*
-  Author: Slava Imameyev
-  Copyright (c) 2008 SmartLine, Inc.
+  Author: Slava Imameev
+  Copyright (c) 2009 Slava Imameev
   All Rights Reserved.
 */
 

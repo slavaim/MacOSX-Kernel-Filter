@@ -28,8 +28,6 @@ To load driver run the following commands, in my case the project's directory is
   132    1 0xffffff8030ae5400 0xd0       0xd0       SlavaImameev.devicelock.agent.privatedriver (1.0)  
   133    0 0xffffff7f82265000 0xd8000    0xd8000    SlavaImameev.devicelock.agent.driver (1.0) <132 118 7 5 4 3 2 1>  
 
-Feel free to contact the author if you have any question. You can contact the author via his blog http://slavaim.blogspot.com.au or facebook https://www.facebook.com/profile.php?id=100010119092130 or linkedin https://www.linkedin.com/profile/view?id=6575657  
-
 Slava Imameev  
 Sydney  
 September 2015  

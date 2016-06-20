@@ -20,18 +20,18 @@ The official way to develop a kernel module filter for Mac OS X and iOS is to in
   
 Let's consider some imaginary private class IOPrivateInterface that inherits from some IOAppleDeviceClass which declaration is available and an attached I/O Kit object issues requests to IOAppleDeviceClass interface  
   
-class IOPrivateInterface: public IOAppleDeviceClass {   
-};  
+`class IOPrivateInterface: public IOAppleDeviceClass {   
+};`  
   
 You want to filter requests to a device managed by IOPrivateInterface, that means that you need to declare your filter like  
   
-class IOMyFilter: public IOPrivateInterface{  
-};  
+`class IOMyFilter: public IOPrivateInterface{  
+};`  
   
 this would never compile as you do not have access to IOPrivateInterface class. You can't declare you filter as  
 
-class IOMyFilter: public IOAppleDeviceClass {
-};  
+`class IOMyFilter: public IOAppleDeviceClass {
+};`  
 
 as this will jettison all IOPrivateInterface code and the device will not function correctly.  
 

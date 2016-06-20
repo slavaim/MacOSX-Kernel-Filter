@@ -37,7 +37,7 @@ as this will jettison all IOPrivateInterface code and the device will not functi
 
 There might be another reason to avoid standard I/O Kit filtering by inheritance. A filtering class objects replaces an original class object in the I/O Kit device stack. That means a module with a filter should be available on device discovery and initialization. In nearly all cases this means that an instance of a filter class object will be created during system startup. This puts a great responsibility on a module developer as an error might render the system unbootable without an easy solution for a customer to fix the problem.  
   
-To overcome this limitation I developed a hooking technique for I/O kit classes. I/O Kit uses virtual C++ functions so a class can be extended but its clients still be able to use a base class declaration. That means that all functions that used for I/O are placed in the array of function pointers known as vtable.  
+To overcome these limitations I developed a hooking technique for I/O kit classes. I/O Kit uses virtual C++ functions so a class can be extended but its clients still be able to use a base class declaration. That means that all functions that used for I/O are placed in the array of function pointers known as vtable.  
   
 The hooking technique supports two types of hooking.
   - replacing vtable array pointer in class object  

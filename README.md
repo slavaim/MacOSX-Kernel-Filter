@@ -47,7 +47,7 @@ The former method allows to filter access to a particular object of a class but 
   
 The hooker code can be found in DldHookerCommonClass.cpp .   
   
-The driver uses C++ templates to avoid code duplication. Though Apple documentation declares that C++ templates are not supported by I/O Kit it is true only if an I/O Kit object is used as a template parameter. You can compile I/O kit module with C++ template classes if an I/O Kit class pointer or non I/O kit derived class is used as a template parameter. As you probably know after instantiation a template is just an ordinary C++ class. Template classes support is not required from run time environment. You can't use I/O Kit as a template parameter just because a way Apple declares them by using C style preprocessor definitions.  
+The driver uses C++ templates to avoid code duplication. Though Apple documentation declares that C++ templates are not supported by I/O Kit it is true only if an I/O Kit object is used as a template parameter or template is used to declare I/O kit object. You can compile I/O kit module with C++ template classes if an I/O Kit class pointer or non I/O kit derived class is used as a template parameter. As you probably know after instantiation a template is just an ordinary C++ class. Template classes support is not required from run time environment. You can't use I/O Kit as a template parameter or declare I/O Kit class as a template just because a way Apple declares them by using C style preprocessor definitions.  
   
 To load driver run the following commands, in my case the project's directory is /work/DL/GitHub/DLDriver  
   

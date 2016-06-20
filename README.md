@@ -49,7 +49,7 @@ The hooker code can be found in DldHookerCommonClass.cpp .
   
 The driver uses C++ templates to avoid code duplication. Though Apple documentation declares that C++ templates are not supported by I/O Kit it is true only if a template is used to declare I/O kit object. You can compile I/O kit module with C++ template classes if they are not I/O Kit classes but template parameters can be I/O Kit classes. As you probably know after instantiation a template is just an ordinary C++ class. Template classes support is not required from run time environment. You can't declare I/O Kit class as a template just because a way Apple declares them by using C style preprocessor definitions. 
 
-Below is a call stack when IOStorage::open was hooked by IOServiceVtableDldHookDldInheritanceDepth_0::open_hook  
+Below is a call stack when a hooked I/O Kit object virtual function is called by IOStorage::open
   
 `
 DldIOService::open at DldIOService.cpp:364

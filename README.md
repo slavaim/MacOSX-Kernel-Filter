@@ -71,7 +71,7 @@ IOService::doServiceMatch at IOService.cpp:3088
 _IOConfigThread::main at IOService.cpp:3350  
 ```
   
-#Loading the module
+##Loading the module
 
 To load driver run the following commands, in my case the project's directory is /work/DL/GitHub/DLDriver  
   

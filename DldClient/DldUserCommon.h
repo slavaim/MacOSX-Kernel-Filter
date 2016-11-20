@@ -15,7 +15,7 @@
 #include <sys/types.h>
 #include <sys/acl.h>
 
-#include "../DeviceLockIOKitDriver/DldUserToKernel.h"
+#include "../DLDriver/DldUserToKernel.h"
 
 #define PROGNAME "DldClient"
 

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2009 Slava Imameev. All rights reserved.
+ * I believe this code was partially borrowed from Amit Singh's "Mac OS X Internals: A Systems Approach"
  */
 
 #include "DldLogHandler.h"

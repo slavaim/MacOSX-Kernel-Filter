@@ -1,5 +1,6 @@
 /*
- * Copyright (c) 2009 Slava Imameev. All rights reserved.
+ * 2009 Slava Imameev. 
+ * testSystemAcl was borrowed from a source which location I don't remember.
  */
 
 #include "DldAcl.h"

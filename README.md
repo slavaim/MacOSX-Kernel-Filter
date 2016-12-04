@@ -70,6 +70,9 @@ IOService::probeCandidates at IOService.cpp:2702
 IOService::doServiceMatch at IOService.cpp:3088  
 _IOConfigThread::main at IOService.cpp:3350  
 ```
+
+The more thorough hooker description can be found here https://github.com/slavaim/MacOSX-IOKit-Hooker/blob/master/README.md
+
   
 ##Loading the module
 

@@ -20,7 +20,14 @@ The project requires XCode 5.
 
 ##Design
 
-The driver uses a hooking technique to provide filtering functionality. The driver hooks C++ virtual table for IOKit classes to filter access to IOKit objects and file operation tables for VFS to filter access to file systems.
+This kernel extension (kext) uses a number of fairly independent subsystems. Some of these subsystems are also discussed in the following documents
+
+https://github.com/slavaim/MacOSX-FileSystem-Filter/blob/master/README.md  
+https://github.com/slavaim/MacOSX-IOKit-Hooker/blob/master/README.md  
+https://github.com/slavaim/MacOSX-SparseFile-KernelMode/blob/master/README.md  
+
+
+The kext uses a hooking technique to provide filtering functionality. The kext hooks C++ virtual table for IOKit classes to filter access to IOKit objects and file operation tables for VFS to filter access to file systems.
 
 Apple I/O Kit is a set of classes to develop kernel modules for Mac OS X and iOS. Its analog in the Windows world is KMDF/UMDF framework. I/O Kit is built atop Mach and BSD subsystems like Windows KMDF is built atop WDM and kernel API.  
   
@@ -55,7 +62,7 @@ The former method allows to filter access to a particular object of a class but 
   
 The hooker code can be found in DldHookerCommonClass.cpp .   
   
-The driver uses C++ templates to avoid code duplication. Though Apple documentation declares that C++ templates are not supported by I/O Kit it is true only if a template is used to declare I/O kit object. You can compile I/O kit module with C++ template classes if they are not I/O Kit classes but template parameters can be I/O Kit classes. As you probably know after instantiation a template is just an ordinary C++ class. Template classes support is not required from run time environment. You can't declare I/O Kit class as a template just because a way Apple declares them by using C style preprocessor definitions. 
+The kext uses C++ templates to avoid code duplication. Though Apple documentation declares that C++ templates are not supported by I/O Kit it is true only if a template is used to declare I/O kit object. You can compile I/O kit module with C++ template classes if they are not I/O Kit classes but template parameters can be I/O Kit classes. As you probably know after instantiation a template is just an ordinary C++ class. Template classes support is not required from run time environment. You can't declare I/O Kit class as a template just because a way Apple declares them by using C style preprocessor definitions. 
 
 Below is a call stack when a hooked I/O Kit object virtual function is called by IOStorage::open
  
@@ -76,7 +83,8 @@ The more thorough hooker description can be found here https://github.com/slavai
   
 ##Loading the module
 
-To load driver run the following commands, in my case the project's directory is /work/DL/GitHub/DLDriver  
+To load the kext run the following commands, in my case the project's directory is /work/DL/GitHub/DL
+
   
 ```
  $ sudo chown -R root:wheel /work/DL/GitHub/DLDriver/DLDriver/Build/Products/Release/DLDriver.kext  
@@ -84,7 +92,7 @@ To load driver run the following commands, in my case the project's directory is
  $ sudo kextutil -v /work/DL/GitHub/DLDriver/DLDriver/Build/Products/Release/DLDriver.kext -d /work/DL/GitHub/DLDriver/DLDriver/Build/Products/Release/DLDriverPrivate.kext  
  ```
  
- To verify that the driver has loaded run  
+ To verify that the kext has loaded run  
  ` $ kextstat | grep SlavaImameev`  
   
   the output should be like  

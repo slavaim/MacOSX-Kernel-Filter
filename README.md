@@ -20,7 +20,7 @@ The project requires XCode 5.
 
 ##Design
 
-This kernel extension (kext) uses a number of fairly independent subsystems. Some of these subsystems are also discussed in the following documents
+This kernel extension (kext) consists of a number of fairly independent subsystems. Some of these subsystems are also discussed in the following documents
 
 https://github.com/slavaim/MacOSX-FileSystem-Filter/blob/master/README.md  
 https://github.com/slavaim/MacOSX-IOKit-Hooker/blob/master/README.md  

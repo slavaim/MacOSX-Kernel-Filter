@@ -4,6 +4,8 @@
 
 The license model is a BSD Open Source License. This is a non-viral license, only asking that if you use it, you acknowledge the authors, in this case Slava Imameev.
 
+The project uses the distorm disassembler https://github.com/gdabah/distorm which is now released under BSD license.
+
 ##Features
 
 The project contains a kernel mode driver filter for Mac OS X , aka kernel extension ( kext ).  

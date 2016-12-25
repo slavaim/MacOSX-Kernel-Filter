@@ -414,7 +414,7 @@ extern DldSocketFilter*     gSocketFilter;
     _notification.event = _event; \
     _notification.flags.separated.notificationForDisconnectedSocket = ( _socketObj->isDisconnected() ) ? 0x1 : 0x0; \
     _socketObj->getSocketId( &_notification.socketId ); \
-    if( DldSocketFilterEventDataIn == _event || DldSocketFilterEventDataOut == _event ){ \
+    if( DldSocketFilterEventDataIn == (_event) || DldSocketFilterEventDataOut == (_event) ){ \
         notification.eventData.inputoutput.buffers[ 0 ] = UINT8_MAX;\
     }
 

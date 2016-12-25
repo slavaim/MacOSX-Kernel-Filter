@@ -28,6 +28,7 @@ https://github.com/slavaim/MacOSX-FileSystem-Filter/blob/master/README.md
 https://github.com/slavaim/MacOSX-IOKit-Hooker/blob/master/README.md  
 https://github.com/slavaim/MacOSX-SparseFile-KernelMode/blob/master/README.md  
 https://github.com/slavaim/MacOSX-VFS-Isolation-Filter/blob/master/README.md  
+https://github.com/slavaim/MacOSX-Network-Sockets-Filter/blob/master/README.md  
 
 
 The kext uses a hooking technique to provide filtering functionality. The kext hooks C++ virtual table for IOKit classes to filter access to IOKit objects and file operation tables for VFS to filter access to file systems.

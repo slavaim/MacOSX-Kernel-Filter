@@ -1,12 +1,12 @@
 # MacOSX-Kernel-Filter
 
-##License
+## License
 
 The license model is a BSD Open Source License. This is a non-viral license, only asking that if you use it, you acknowledge the authors, in this case Slava Imameev.
 
 The project uses the distorm disassembler https://github.com/gdabah/distorm which is now released under BSD license.
 
-##Features
+## Features
 
 The project contains a kernel mode driver filter for Mac OS X , aka kernel extension ( kext ).  
 The driver allows to intercept requests to any internal or external device ( USB, FireWire, PCI, Thunderbolt, Bluetooth, WiFi ), allow or disable requests based on user credentials and device type, perform collection of data sent to external storage devices.  
@@ -15,12 +15,12 @@ The driver allows to intercept network trafic, collect it in the user mode, chan
 The driver can protect itself and selected user mode processes even from users with root privilege ( to a certain degree, depending on attackers skills ).  
 The driver doesn't require to be loaded on boot, the special technique used in the driver allows it to be loaded anytime and control devices started before it was loaded.
 
-##General Information
+## General Information
 
 The driver was developed in 2009-2013 and tested on Mac OS X Snow Leopard, Mac OS X Lion, Mac OS X Mountain Lion, Mac OS X Mavericks, Mac OS X Yosemite.  
 The project requires XCode 5.
 
-##Design
+## Design
 
 This kernel extension (kext) consists of a number of fairly independent subsystems. Some of these subsystems are discussed in the following documents
 
@@ -85,7 +85,7 @@ _IOConfigThread::main at IOService.cpp:3350
 The more thorough hooker description can be found here https://github.com/slavaim/MacOSX-IOKit-Hooker/blob/master/README.md
 
   
-##Loading the module
+## Loading the module
 
 To load the kext run the following commands, in my case the project's directory is /work/DL/GitHub/DL
 
